@@ -16,9 +16,11 @@ class App extends Component {
         <Router>
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <NavBar />
+            <div className="Body">
               <Route name="home" exact path="/" component={HomePage} />
               <Route path='/database' component={Database} />
               <Route path='/example' component={Example} />
+            </div>
           </nav>
         </Router>
         <Footer />

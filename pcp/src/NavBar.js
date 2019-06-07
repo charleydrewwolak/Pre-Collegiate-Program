@@ -5,12 +5,23 @@ class NavBar extends Component {
   render() {
     return (
       <header>
-        <ul id="headerButtons">
-          <li className="navButton"><Link to="/">Home</Link></li>
-          <li className="navButton"><Link to="/database">Database</Link></li>
-          <li className="navButton"><Link to="/example">example</Link></li>
-        </ul>
+        <div className="navbar">
+          <a href="#home"><Link to="/">Home</Link></a>
+          <a href="#db"><Link to="/database">DB</Link></a>
+          <div className="dropdown">
+            <button className="dropbtn">Dropdown 
+              <i className="fa fa-caret-down"></i>
+            </button>
+            <div className="dropdown-content">
+              <a href="#1">Link 1</a>
+              <a href="#2">Link 2</a>
+              <a href="#3">Link 3</a>
+            </div>
+          </div> 
+        </div>
       </header>
+      
+      
     )
   }
 }
