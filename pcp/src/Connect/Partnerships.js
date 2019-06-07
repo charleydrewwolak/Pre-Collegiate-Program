@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-class Database extends Component {
+class Partnerships extends Component {
   render() {
     return (
       <div>
-        Database Goes Here
+        Partnerships:
       </div>
     )
   }
 }
 
-export default Database
+export default Partnerships
 
