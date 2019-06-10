@@ -28,7 +28,16 @@ class NavBar extends Component {
               <a href="#study-abroad"><Link to="/study-abroad">Study Abroad</Link></a>
             </div>
           </div> 
-          <a href="#sl"><Link to="/studentlife">Student Life</Link></a>
+          <div className="dropdown">
+            <button className="dropbtn">Student Life 
+              <i className="fa fa-caret-down"></i>
+            </button>
+            <div className="dropdown-content">
+              <a href="#sl"><Link to="/studentlife">Student Life</Link></a>
+              <a href="#blog"><Link to="/blog">Blog</Link></a>
+            </div>
+          </div> 
+          
           <div className="dropdown">
             <button className="dropbtn">Admissions 
               <i className="fa fa-caret-down"></i>

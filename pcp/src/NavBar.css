@@ -5,7 +5,6 @@
     padding: 0;
     overflow: hidden;
     background-color: white;
-    font-family: 'Montserret', sans-serif;
     margin-bottom: 0%;
     float: left;
   }
@@ -16,9 +15,10 @@
     float: left;
     font-size: 16px;
     color: #1d1d21;
-    padding: 14px 30px;
+    padding: 14px 25px;
     text-decoration: none;
     display: block;
+    
   }
   
   /* The dropdown container */
@@ -26,6 +26,10 @@
     float: left;
     overflow: hidden;
     padding: 14px 30px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: grey;
+    
 
   }
   
@@ -35,14 +39,17 @@
     border: none;
     outline: none;
     color:#1d1d21;
-    padding: 14px 30px;
+    width: 20 px;
+    padding-top: 8px;
+    padding-bottom: 8px; 
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
+    
   }
   
   /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  .navbar a:hover, .dropdown:hover {
     background-color: #f9a404;
   }
   
