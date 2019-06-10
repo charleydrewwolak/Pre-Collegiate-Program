@@ -5,11 +5,11 @@
 }
 .img.logo {
     float: left;
-    padding-right: 2%;
-    padding-bottom: 2%;
+    padding-right: 0%;
+    padding-bottom: 0%;
 }
 
 .h1.logo {
-    line-height: 150 px;
+    line-height: 0 px;
     vertical-align: middle;
 }
