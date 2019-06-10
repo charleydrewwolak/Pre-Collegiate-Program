@@ -1,15 +1,9 @@
 #Header {
     text-align: left;
     float: right;
-
-}
-.img.logo {
-    float: left;
-    padding-right: 0%;
-    padding-bottom: 0%;
+    padding:5%;
 }
 
-.h1.logo {
-    line-height: 0 px;
-    vertical-align: middle;
+#img.logo {
+    vertical-align:middle;
 }
