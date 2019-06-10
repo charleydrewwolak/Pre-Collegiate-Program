@@ -1,8 +1,11 @@
 .App {
   padding: 5%;
-  color: grey;
+  color: #1d1d21;
+  
 }
 
 .Body {
   background-color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }

@@ -4,8 +4,8 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    font-family: Arial;
+    background-color:#1d1d21;
+    font-family: Helvetica;
     margin-bottom: 0%
   }
   
@@ -42,7 +42,7 @@
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #f9a404;
   }
   
   /* Dropdown content (hidden by default) */
