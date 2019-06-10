@@ -5,6 +5,7 @@ class NavBar extends Component {
   render() {
     return (
       <header>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet"/> 
         <div className="navbar">
           <div className="dropdown">
             <button className="dropbtn">About 
