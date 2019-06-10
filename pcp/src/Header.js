@@ -8,7 +8,7 @@ class Header extends Component {
       <div  className="expanded row header">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet"/> 
         <img className="logo" src={Logo} alt="Pre-Collegiate Program Yangon" width="150px"/>
-        <h1 className="h1"> The Pre-Collegiate Program of Yangon</h1>
+        <h1 className="h1"> The Pre-Collegiate Program </h1><h1 className="ygn">of Yangon</h1>
       </div>
     )
   }
