@@ -1,24 +1,45 @@
-.logo{
-    float: left;
-    padding-right: 2%;
-    padding-top: 2%;
+.header{
+    padding-bottom: 2%;
+    height: 5%;
+    display: table;
 }
 
-.h1{
+.pcp{
     float: left;
-    height: 150px;
-    line-height: 150px;
-    font-size: 250%;
+    font-size: 40px;
     color: #3a54a5;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    padding-right: 8px;
+    
 }
 .ygn{
-    padding-left: 10px;
-    color: #f9a404;float: left;
-    height: 150px;
-    line-height: 150px;
-    font-size: 250%;
+    float: left;
+    color: #f9a404;
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+}
+.image{
+    width: 15%;
+    overflow: hidden;
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text{
+    width: 80%;
+    line-height: 2px;
+    overflow: hidden;
+    height: 160px;
+    position: relative;
+    line-height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.text h1{
+    margin-top: 2px;
+    margin-bottom: 2px; 
 }

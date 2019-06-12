@@ -1,5 +1,7 @@
 .App {
-  padding: 10%;
+  padding-top: 2%;
+  padding-right: 8%;
+  padding-left: 8%;
   color: #1d1d21;
   font-weight: 300;
 }
@@ -9,4 +11,8 @@
   padding-top: 10%;
   padding-bottom: 7%;
   
+}
+
+.p{
+  font-weight: 300;
 }

@@ -5,11 +5,17 @@ import Logo from './images/LOGO_NEW.svg'
 class Header extends Component {
   render() {
     return (
-      <div  className="expanded row header">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet"/> 
-        <a href="./Homepage.js"><img className="logo" src={Logo} alt="Pre-Collegiate Program Yangon" width="150px"/></a>
-        <h1 className="h1"> The Pre-Collegiate Program </h1><h1 className="ygn">of Yangon</h1>
-      </div>  
+      <div className="header">
+        <div className="image">
+          <a href="./"><img className="logo" src={Logo} alt="Pre-Collegiate Program Yangon" /></a>
+        </div>  
+
+        <div className="text" >
+          <h1 className="pcp">The Pre-Collegiate Program </h1>
+          <h1 className="ygn">of Yangon</h1>
+      
+        </div>
+      </div>
     )
   }
 }
