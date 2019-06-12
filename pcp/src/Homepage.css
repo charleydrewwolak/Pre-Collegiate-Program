@@ -1,3 +1,23 @@
+.videoBlock {
+    display: table;
+    width: 100%;
+}
+.Left {
+    width: 873.6px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Right {
+    background-color: #f9a404;
+    display: table-cell;
+    vertical-align: middle;
+
+}
 .main{
     text-align: justify;
+    clear: both;
+
+    
+
 }
