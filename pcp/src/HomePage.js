@@ -12,7 +12,8 @@ class HomePage extends Component {
           </div>
             
           <div className="Right">
-            <h2>Insert Cool Factz here</h2>
+            <h2>“Education is not the filling of a pail, but the lighting of a fire.”</h2>
+            <h3>—William Butler Yeats</h3>
           </div>
         </div>
         <div>
@@ -29,6 +30,11 @@ class HomePage extends Component {
           and persuasively share this information
           with others will be a great asset to the country as it goes forward.
           </p>
+          <p className="main">We always ask questions of our students that help them open their minds and their hearts. We push students to look closely at their environment and listen carefully to those who speak with them. We encourage our students to entertain ideas they do not accept. We stimulate our students to integrate their traditional values with those essential in contemporary society. We nurture our students in the hope that some will accept the challenge to become change agents.
+      
+To become a member of the Pre-Collegiate Program is to embark on a lifelong journey of learning and engagement. For those who choose to take on this challenge, the community of the Program will be with you every step of the way.
+</p>
+
 
         </div>
         

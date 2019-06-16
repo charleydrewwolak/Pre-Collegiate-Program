@@ -1,4 +1,19 @@
 /* Navbar container */
+p {
+  text-align: justify;
+  clear: both;
+}
+.histImg {
+  font-size: 10px;
+  text-align: center;
+}
+strong{
+  font-weight: bold;
+}
+ul {
+  text-align: left;
+}
+
 .navbar {
     clear: both;
     overflow: hidden;
