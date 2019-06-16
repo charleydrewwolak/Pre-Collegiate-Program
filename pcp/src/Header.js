@@ -11,8 +11,7 @@ class Header extends Component {
         </div>  
 
         <div className="text" >
-          <h1 className="pcp">The Pre-Collegiate Program </h1>
-          <h1 className="ygn">of Yangon</h1>
+          <h1 className="pcp"><strong>The Pre-Collegiate Program </strong>of Yangon</h1>
       
         </div>
       </div>

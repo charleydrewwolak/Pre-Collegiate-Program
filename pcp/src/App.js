@@ -58,7 +58,7 @@ class App extends Component {
               <Route path='/intern' component={Intern} />
               <Route path='/partner' component={Partner} />
               <Route path='/partnerships' component={Partnerships} />
-              <Route path='/team' component={Team} />
+              <Route path='/join' component={Team} />
               <Route path='/zomia' component={Zomia} />
 
               <Route path='/donate' component={Donate} />

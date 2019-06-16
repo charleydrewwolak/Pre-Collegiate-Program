@@ -1,5 +1,5 @@
 /* Navbar container */
-p {
+p, ul {
   text-align: justify;
   clear: both;
   line-height: 200%;
