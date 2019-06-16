@@ -2,6 +2,9 @@
 p {
   text-align: justify;
   clear: both;
+  line-height: 200%;
+  font-kerning: normal;
+  letter-spacing: 0.3px;
 }
 .histImg {
   font-size: 10px;
@@ -12,6 +15,10 @@ strong{
 }
 ul {
   text-align: left;
+}
+
+a {
+  color: #1d1d21;
 }
 
 .navbar {

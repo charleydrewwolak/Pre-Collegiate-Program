@@ -43,8 +43,8 @@ class NavBar extends Component {
               <i className="fa fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
-              <a href="#enroll"><Link to="/enroll">Enroll</Link></a>
-              <a href="#financial-aid"><Link to="/financial-aid">Frees and Financial Aid</Link></a>
+              <a href="#apply"><Link to="/apply">Enroll</Link></a>
+              <a href="#financial-aid"><Link to="/financial-aid">Fees and Financial Aid</Link></a>
             </div>
           </div> 
           <div className="dropdown">
