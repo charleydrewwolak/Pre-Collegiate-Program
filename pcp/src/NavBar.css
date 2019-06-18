@@ -1,3 +1,9 @@
+.header {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
 /* Navbar container */
 p, ul {
   text-align: justify;
@@ -6,23 +12,11 @@ p, ul {
   font-kerning: normal;
   letter-spacing: 0.3px;
 }
-.histImg {
-  font-size: 10px;
-  text-align: center;
-}
-strong{
-  font-weight: bold;
-}
-ul {
-  text-align: left;
-}
-
-a {
-  color: #1d1d21;
-}
 
 .navbar {
     clear: both;
+    width: 100%;
+    
     overflow: hidden;
     display: inline-block;
     text-align: center;
@@ -38,8 +32,11 @@ a {
     padding-bottom: 10px;
     border-top: 1px solid;
     border-bottom: 1px solid;
-    padding-inline: 40px;
     border-color: grey;
+    display: table-cell;
+    width: 16.6%;
+   
+
 
 
   }
