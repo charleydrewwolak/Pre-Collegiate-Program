@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './NavBar'
 import Header from './Header';
@@ -38,13 +38,13 @@ class App extends Component {
         <Header />
         <Router>
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <NavBar />
+            <NavBar />
             <div className="Body">
               <Route name="home" exact path="/" component={HomePage} />
               <Route path='/alumni' component={Alumni} />
               <Route path='/history' component={History} />
               <Route path='/mission' component={Mission} />
-              
+
               <Route path='/curriculum' component={Curriculum} />
               <Route path='/faculty-staff' component={FacultyStaff} />
               <Route path='/liberal-arts' component={LiberalArts} />
@@ -62,7 +62,7 @@ class App extends Component {
               <Route path='/zomia' component={Zomia} />
 
               <Route path='/donate' component={Donate} />
-              
+
               <Route path='/calendar' component={Calendar} />
             </div>
           </nav>

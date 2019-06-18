@@ -26,13 +26,13 @@ class Curriculum extends Component {
             <li ><strong>Newsroom </strong>– This course, which meets once per week, is a discussion-based class that gives students the opportunity to discuss current events in Myanmar and beyond. Students learn about how these situations have come to be, similar cases that have happened before, and what might be done to change them in the future.</li>
             </ul>
             <ul>
-            <li ><strong>SAT Preparation</strong> – Students learn knowledge and skills necessary to succeed on the SAT exam and <a href="https://precollegiateyangon.org/studyabroad/">earn admission and scholarships</a> to foreign universities.</li>
+            <li ><strong>SAT Preparation</strong> – Students learn knowledge and skills necessary to succeed on the SAT exam and <a href="./financial-aid">earn admission and scholarships</a> to foreign universities.</li>
             </ul>
             <ul>
             <li ><strong>Community Service</strong> – For half a day each week, students have the opportunity to learn outside of the classroom, build connections, and create positive change in their community. Students can volunteer&nbsp;at the Myanmar Education Center for the Blind, teach at local monasteries, and translate Khan Academy videos into Burmese.</li>
             </ul>
             <ul>
-            <li ><strong>Internships</strong> – Our students gain experience and make connections in Myanmar’s professional world during a four-month <a href="https://precollegiateyangon.org/internships/">internship</a>. Projects vary based on the individual’s interest and include working at the Myanmar Times, assisting research at MMRD (Myanmar Marketing Research &amp; Development), surveying workers with the International Labor Organization, and learning documentary filmmaking with Tagu Films.</li>
+            <li ><strong>Internships</strong> – Our students gain experience and make connections in Myanmar’s professional world during a four-month <a href="./intern">internship</a>. Projects vary based on the individual’s interest and include working at the Myanmar Times, assisting research at MMRD (Myanmar Marketing Research &amp; Development), surveying workers with the International Labor Organization, and learning documentary filmmaking with Tagu Films.</li>
             </ul>
           </div>
       </div>
