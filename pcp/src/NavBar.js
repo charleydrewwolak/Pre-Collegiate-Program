@@ -56,7 +56,7 @@ class NavBar extends Component {
               <a href="#partner"><Link to="/partner">Partner With Us</Link></a>
               <a href="#intern"><Link to="/intern">Hire an Intern</Link></a>
               <a href="#join"><Link to="/join">Join our Team</Link></a>
-              <a href="#partnerships"><Link to="/join">Partnerships</Link></a>
+              <a href="#partnerships"><Link to="/partnerships">Partnerships</Link></a>
             </div>
           </div> 
           <div className="dropdown">

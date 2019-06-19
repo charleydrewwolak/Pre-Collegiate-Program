@@ -1,0 +1,23 @@
+.pBody {
+    text-align: left;
+    float: left;
+    display: block;
+    
+    
+}
+
+
+.pLogo {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+.b {
+    float: left;
+    width: 60%;
+}
+.pButton{
+    float: left;
+}
