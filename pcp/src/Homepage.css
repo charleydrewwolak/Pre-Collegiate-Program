@@ -1,28 +1,33 @@
 .videoBlock {
-    display: table;
+    display: block;
     width: 100%;
+    float: left;
 }
 .Left {
     width: 873.6px;
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
+    float: left;
 }
 
 .Right {
     background-color: #f9a404;
     display: table-cell;
+    height: 495px;
     vertical-align: middle;
 
 }
 .main{
     text-align: justify;
-    clear: both;
+}
 
-    
-
+.hp {
+    display: block;
+    float: left;
+    margin: auto;
 }
 .Right h2, h3 {
     color: white;
     font-weight: 200;
     font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
 }
