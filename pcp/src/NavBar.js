@@ -68,6 +68,7 @@ class NavBar extends Component {
             </div>
           </div> 
         </div>
+        <div className="line"></div>
       </header>
       
       

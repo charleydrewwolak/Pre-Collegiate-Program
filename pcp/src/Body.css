@@ -12,3 +12,15 @@
   a {
     color: #1d1d21;
   }
+  .Body {
+    background-color: white;
+    padding-bottom: 7%;
+    
+  }
+  
+  
+  p {
+    font-weight: 300;
+    font-size: 14px;
+    
+  }
