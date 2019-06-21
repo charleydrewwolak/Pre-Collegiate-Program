@@ -60,10 +60,10 @@ border-color: grey;
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar .dropdown:hover {
+.navbar  .dropbtn:hover {
   border-bottom: 2px solid;
   border-color: #f9a404;
-
+  
  
   
 }
@@ -76,7 +76,7 @@ border-color: grey;
   width: 14.2%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  transform: translateY(17.5px);
+  transform: translateY(17px);
 
 }
 
@@ -97,7 +97,3 @@ border-color: grey;
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}

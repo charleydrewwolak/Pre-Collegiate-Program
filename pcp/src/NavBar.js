@@ -3,13 +3,49 @@ import { Link } from 'react-router-dom';
 import './NavBar.css'; 
 import './Body.css'
 class NavBar extends Component {
+  constructor(props){
+    super(props);
+    this.state = {isToggleOn: false};
+    this.handleClick = this.handleClick.bind(this);
+    this.setWrapperRef = this.setWrapperRef.bind(this);
+    this.handleClickOutside = this.handleClickOutside.bind(this);
+  }
+  componentDidMount() {
+    document.addEventListener('mousedown', this.handleClickOutside);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('mousedown', this.handleClickOutside);
+  }
+
+  /**
+   * Set the wrapper ref
+   */
+  setWrapperRef(node) {
+    this.wrapperRef = node;
+  }
+  handleClick() {
+    this.setState(state => ({
+      isToggleOn: !state.isToggleOn,
+    }));
+    document.getElementsByClassName("dropdown-content").classList.toggle("show");
+  }
+  handleClickOutside(event) {
+    if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+      var myDropdown = document.getElementsByClassName("dropdown-content");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+
   render() {
     return (
       <header>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet"/> 
         <div className="navbar">
           <div className="dropdown">
-            <button className="dropbtn">About 
+            <button onClick={this.handleClick} className="dropbtn">About 
               <i className="fa fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
@@ -19,7 +55,7 @@ class NavBar extends Component {
             </div>
           </div>
           <div className="dropdown">
-            <button className="dropbtn">Academics 
+            <button onClick={this.handleClick} className="dropbtn">Academics 
               <i className="fa fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
@@ -30,7 +66,7 @@ class NavBar extends Component {
             </div>
           </div> 
           <div className="dropdown">
-            <button className="dropbtn">Student Life 
+            <button onClick={this.handleClick} className="dropbtn">Student Life 
               <i className="fa fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
@@ -40,7 +76,7 @@ class NavBar extends Component {
           </div> 
           
           <div className="dropdown">
-            <button className="dropbtn">Admissions 
+            <button onClick={this.handleClick} className="dropbtn">Admissions 
               <i className="fa fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
@@ -49,7 +85,7 @@ class NavBar extends Component {
             </div>
           </div> 
           <div className="dropdown">
-            <button className="dropbtn">Connect 
+            <button  onClick={this.handleClick} className="dropbtn">Connect 
               <i className="fa fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
@@ -60,7 +96,7 @@ class NavBar extends Component {
             </div>
           </div> 
           <div className="dropdown">
-            <button className="dropbtn">Student Resources 
+            <button onClick={this.handleClick} className="dropbtn">Student Resources 
               <i className="fa fa-caret-down"></i>
             </button>
             <div className="dropdown-content">
