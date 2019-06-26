@@ -25,8 +25,11 @@ a {
     clear: both;
 <<<<<<< HEAD
     width: 100%;
+<<<<<<< HEAD
 =======
 >>>>>>> parent of e72b4bba... Adjusted nav bar and added new body.css
+=======
+>>>>>>> ab8c67cfc8577515acfa4eafaf4a4c24d4bbe24e
     overflow: hidden;
     display: inline-block;
     text-align: center;
@@ -35,6 +38,9 @@ a {
   }
   
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ab8c67cfc8577515acfa4eafaf4a4c24d4bbe24e
 /* The dropdown container */
 .dropdown {
   float: left;
@@ -46,6 +52,7 @@ a {
   border-color: white;
   display: table-cell;
   width: 16.6%;
+<<<<<<< HEAD
 =======
   /* The dropdown container */
   .dropdown {
@@ -58,6 +65,8 @@ a {
     padding-inline: 40px;
     border-color: grey;
 >>>>>>> parent of e72b4bba... Adjusted nav bar and added new body.css
+=======
+>>>>>>> ab8c67cfc8577515acfa4eafaf4a4c24d4bbe24e
 
 }
 
