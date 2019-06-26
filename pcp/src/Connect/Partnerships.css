@@ -9,9 +9,11 @@
 
 .pLogo {
     background-color: black;
-    width: 40px;
-    height: 40px;
+    width: 150px;
+    height: 150px;
     float: right;
+    margin-top: 15px;
+    
 }
 
 .b {
@@ -19,5 +21,16 @@
     width: 60%;
 }
 .pButton{
+    margin-top: 15px;
+    margin-bottom: 20px;
     float: left;
+    border: 1px solid;
+    width: 100px;
+    height: 30px
 }
+.pButton:hover{
+    background-color: #f9a404;
+    border-color: #f9a404;
+    color: white;
+}
+

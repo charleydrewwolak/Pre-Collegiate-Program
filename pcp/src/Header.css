@@ -6,17 +6,8 @@
 .pcp{
     float: left;
     color: #f9a404;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font-size: 45px;
-=======
     padding-left: 20px;
     font-size: 30px;
->>>>>>> f17f355925fee720908ae721e948e9ed4eb5f6ea
-=======
-    padding-left: 20px;
-    font-size: 30px;
->>>>>>> ab8c67cfc8577515acfa4eafaf4a4c24d4bbe24e
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }

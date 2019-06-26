@@ -1,3 +1,9 @@
+.header {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
 /* Navbar container */
 p, ul {
   text-align: justify;
@@ -5,20 +11,6 @@ p, ul {
   line-height: 200%;
   font-kerning: normal;
   letter-spacing: 0.3px;
-}
-.histImg {
-  font-size: 10px;
-  text-align: center;
-}
-strong{
-  font-weight: bold;
-}
-ul {
-  text-align: left;
-}
-
-a {
-  color: #1d1d21;
 }
 
 .navbar {
@@ -31,6 +23,7 @@ a {
     
   }
   
+/* The dropdown container */
 .dropdown {
   float: left;
   overflow: hidden;
@@ -41,7 +34,16 @@ a {
   border-color: white;
   display: table-cell;
   width: 16.6%;
+
 }
+
+.line {
+  
+border-top: 1px solid;
+border-color: grey;
+
+}
+
 /* Dropdown button */
   .dropbtn {
   font-size: 14px; 
@@ -50,8 +52,11 @@ a {
   color:#1d1d21;
   width: 20 px;
   padding-top: 0px;
+  cursor: pointer;
   padding-bottom: 0px; 
   background-color: inherit;
+  border-bottom: 2px solid;
+  border-color: white;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
   
@@ -71,8 +76,11 @@ a {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  width: 14.2%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 13.75%;
+  border-left: #1d1d21 solid;
+  border-right: #1d1d21 solid;
+  border-bottom: #1d1d21 solid;
+  border-width: 1px;
   z-index: 1;
   transform: translateY(17px);
 
@@ -95,3 +103,7 @@ a {
   background-color: #ddd;
 }
 
+.show {
+  display: block;
+
+}
