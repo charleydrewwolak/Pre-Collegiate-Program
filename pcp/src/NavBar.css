@@ -23,13 +23,7 @@ a {
 
 .navbar {
     clear: both;
-<<<<<<< HEAD
     width: 100%;
-<<<<<<< HEAD
-=======
->>>>>>> parent of e72b4bba... Adjusted nav bar and added new body.css
-=======
->>>>>>> ab8c67cfc8577515acfa4eafaf4a4c24d4bbe24e
     overflow: hidden;
     display: inline-block;
     text-align: center;
@@ -37,11 +31,6 @@ a {
     
   }
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ab8c67cfc8577515acfa4eafaf4a4c24d4bbe24e
-/* The dropdown container */
 .dropdown {
   float: left;
   overflow: hidden;
@@ -52,31 +41,7 @@ a {
   border-color: white;
   display: table-cell;
   width: 16.6%;
-<<<<<<< HEAD
-=======
-  /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    padding-inline: 40px;
-    border-color: grey;
->>>>>>> parent of e72b4bba... Adjusted nav bar and added new body.css
-=======
->>>>>>> ab8c67cfc8577515acfa4eafaf4a4c24d4bbe24e
-
 }
-
-.line {
-  
-border-top: 1px solid;
-border-color: grey;
-
-}
-
 /* Dropdown button */
   .dropbtn {
   font-size: 14px; 
