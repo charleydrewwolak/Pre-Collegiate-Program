@@ -1,12 +1,17 @@
 .header{
-    padding-bottom: 2%;
-    height: 5%;
+    padding-bottom: 0%;
+    height: 3%;
     display: table;
 }
 .pcp{
     float: left;
     color: #f9a404;
+<<<<<<< HEAD
     font-size: 45px;
+=======
+    padding-left: 20px;
+    font-size: 30px;
+>>>>>>> f17f355925fee720908ae721e948e9ed4eb5f6ea
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }
@@ -17,18 +22,18 @@
 }
 
 .image{
-    width: 15%;
+    width: 8%;
     overflow: hidden;
-    padding: 10px;
+    padding: 0px;
     display: table-cell;
     vertical-align: middle;
+
 }
 
 .text{
     width: 80%;
     line-height: 2px;
     overflow: hidden;
-    height: 160px;
     position: relative;
     line-height: 50px;
     display: table-cell;
