@@ -50,7 +50,6 @@ a {
   color:#1d1d21;
   width: 20 px;
   padding-top: 0px;
-  cursor: pointer;
   padding-bottom: 0px; 
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -69,7 +68,7 @@ a {
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  display: block;
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
   width: 14.2%;
@@ -96,4 +95,3 @@ a {
   background-color: #ddd;
 }
 
-.show {display: block;}
