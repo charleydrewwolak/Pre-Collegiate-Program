@@ -1,3 +1,8 @@
+.header {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
 
 /* Navbar container */
 p, ul {
@@ -15,9 +20,6 @@ p, ul {
     display: inline-block;
     text-align: center;
     background-color: white;
-    width: 100%;
-    display: table;
-    table-layout: fixed;
     
   }
   
@@ -71,7 +73,7 @@ border-color: grey;
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
-  display: block;
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
   width: 13.75%;
@@ -80,7 +82,7 @@ border-color: grey;
   border-bottom: #1d1d21 solid;
   border-width: 1px;
   z-index: 1;
-  transform: translateY(13px);
+  transform: translateY(17px);
 
 }
 
@@ -99,4 +101,9 @@ border-color: grey;
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
+}
+
+.show {
+  display: block;
+
 }
