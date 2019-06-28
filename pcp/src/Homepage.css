@@ -25,6 +25,11 @@
     float: left;
     margin: auto;
 }
+.text {
+    padding:5px;
+    text-align: center;
+    line-height: 20px;
+}
 .Right {
     color: white;
     font-weight: 200;

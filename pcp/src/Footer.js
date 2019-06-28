@@ -6,9 +6,9 @@ import ig from './images/instagram.png'
 class Footer extends Component {
   render() {
     return (
-      <footer className="expanded row">
+      <footer>
         <div className="info">
-          <h6>Contact<br />
+          <h6>
             Pre-Collegiate Program Yangon<br />
             09-730-79-846 or 09-739-01-611<br />
             21/23, Kon Zay Dan St. (Lower Block)<br />

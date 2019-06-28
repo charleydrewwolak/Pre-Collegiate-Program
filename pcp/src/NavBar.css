@@ -1,25 +1,61 @@
 
-/* Navbar container */
-p, ul {
-  text-align: justify;
-  clear: both;
-  line-height: 200%;
-  font-kerning: normal;
-  letter-spacing: 0.3px;
+
+header {
+  padding-top: 20px;
+  display:block;
+  width: 100%;
+}
+.right {
+  float: left;
+  display: block;
+  width: 90%;
+}
+.image img {
+  width: 70px;
+  display: table-cell;
+  vertical-align: middle;
+  display: block;
+  overflow: hidden;
+  padding-left: 20px;
+  float: left;
+
+
+}
+.pcp{
+  float: left;
+  padding-left: 10px;
+  color: #f9a404;
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+}
+.pcp strong{
+  color: #3a54a5;
+  font-weight: 400;
+  
+}
+
+.text{
+  line-height: 2px;
+  overflow: hidden;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  
 }
 
 .navbar {
     clear: both;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
     display: inline-block;
     text-align: center;
-    background-color: white;
-    width: 100%;
     display: table;
     table-layout: fixed;
-    
+    padding-bottom: 8px;
   }
+
   
 /* The dropdown container */
 .dropdown {
@@ -28,8 +64,6 @@ p, ul {
   padding-top: 10px;
   padding-bottom: 11px;
   border-top: 0px solid;
-  border-bottom: 2px solid;
-  border-color: white;
   display: table-cell;
   width: 16.6%;
 
@@ -39,6 +73,10 @@ p, ul {
   
 border-top: 1px solid;
 border-color: grey;
+clear: both;
+display: block;
+width:100%;
+
 
 }
 
@@ -50,7 +88,6 @@ border-color: grey;
   color:#1d1d21;
   width: 20 px;
   padding-top: 0px;
-  cursor: pointer;
   padding-bottom: 0px; 
   background-color: inherit;
   border-bottom: 2px solid;
@@ -73,14 +110,14 @@ border-color: grey;
 .dropdown-content {
   display: block;
   position: absolute;
-  background-color: #f9f9f9;
-  width: 13.75%;
+  background-color: white;
+  width: 13%;
   border-left: #1d1d21 solid;
   border-right: #1d1d21 solid;
   border-bottom: #1d1d21 solid;
   border-width: 1px;
   z-index: 1;
-  transform: translateY(13px);
+  transform: translateY(19px);
 
 }
 
@@ -100,3 +137,5 @@ border-color: grey;
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+
+

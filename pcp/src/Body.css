@@ -15,10 +15,20 @@
   .Body {
     background-color: white;
     padding-bottom: 7%;
+    padding-left: 8.9%;
+    padding-right: 8%;
     
   }
   
+  p, ul {
+    text-align: justify;
+    clear: both;
+    line-height: 200%;
+    font-kerning: normal;
+    letter-spacing: 0.3px;
+  }
   
+
   p {
     font-weight: 300;
     font-size: 14px;
@@ -31,6 +41,7 @@
     border-style: outset;
   }
 
-h2 {
-  color: black;
+h1,h2 {
+  color: ##0000009c;
+  font-size: 25px;
 }

@@ -1,6 +1,7 @@
 footer {
     display: block;
-    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-top: 10px; 
     border-top: 1px solid grey;
     font-size: 5;
     float: left;
@@ -9,10 +10,12 @@ footer {
 }
 .info {
     float: left;
+    padding-left: 40px;
 }
 .sm {
     float: right;
     padding-top:30px;
+    padding-right: 40px;
 }
 .sm img {
     height: 35px;
@@ -28,5 +31,6 @@ footer {
 }
 h6 {
     font-weight: 200;
+    line-height: 20px;
     font-size: 10pt;
 }

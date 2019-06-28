@@ -12,8 +12,10 @@ class HomePage extends Component {
           </div>
             
           <div className="Right">
-            <h2>Education is not the filling of a pail, but the lighting of a fire.</h2>
+            <div className="text" >
+            <h3>Education is not the filling of a pail, but the lighting of a fire.</h3>
             <h3>—William Butler Yeats</h3>
+          </div>
           </div>
         </div>
 
