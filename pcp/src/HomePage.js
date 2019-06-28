@@ -7,7 +7,7 @@ class HomePage extends Component {
       <div>
         <div className="videoBlock">
           <div className="Left">
-            <iframe width="873.6px" height="495px" src="https://www.youtube.com/embed/SxhsBBR-dOI?controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay=1; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="The Pre-Collegiate Program of Yangon">
+            <iframe width="873.6px" height="495px" src="https://www.youtube.com/embed/SxhsBBR-dOI?controls=0&amp;showinfo=0" frameBorder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="The Pre-Collegiate Program of Yangon">
             </iframe>
           </div>
             
