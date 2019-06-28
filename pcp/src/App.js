@@ -34,40 +34,45 @@ import Donate from './Donate';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <Router>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <NavBar />
-            <div className="Body">
-              <Route name="home" exact path="/" component={HomePage} />
-              <Route path='/alumni' component={Alumni} />
-              <Route path='/history' component={History} />
-              <Route path='/mission' component={Mission} />
+      <div>
+        <div className="left">
 
-              <Route path='/curriculum' component={Curriculum} />
-              <Route path='/faculty-staff' component={FacultyStaff} />
-              <Route path='/liberal-arts' component={LiberalArts} />
-              <Route path='/study-abroad' component={StudyAbroad} />
+        </div>
+        <div className="App">
+          <Header />
+          <Router>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+              <NavBar />
+              <div className="Body">
+                <Route name="home" exact path="/" component={HomePage} />
+                <Route path='/alumni' component={Alumni} />
+                <Route path='/history' component={History} />
+                <Route path='/mission' component={Mission} />
 
-              <Route path='/apply' component={Apply} />
-              <Route path='/financial-aid' component={FinancialAid} />
+                <Route path='/curriculum' component={Curriculum} />
+                <Route path='/faculty-staff' component={FacultyStaff} />
+                <Route path='/liberal-arts' component={LiberalArts} />
+                <Route path='/study-abroad' component={StudyAbroad} />
 
-              <Route path='/bonner' component={Bonner} />
-              <Route path='/impetus' component={Impetus} />
-              <Route path='/intern' component={Intern} />
-              <Route path='/partner' component={Partner} />
-              <Route path='/partnerships' component={Partnerships} />
-              <Route path='/join' component={Team} />
-              <Route path='/zomia' component={Zomia} />
+                <Route path='/apply' component={Apply} />
+                <Route path='/financial-aid' component={FinancialAid} />
 
-              <Route path='/donate' component={Donate} />
+                <Route path='/bonner' component={Bonner} />
+                <Route path='/impetus' component={Impetus} />
+                <Route path='/intern' component={Intern} />
+                <Route path='/partner' component={Partner} />
+                <Route path='/partnerships' component={Partnerships} />
+                <Route path='/join' component={Team} />
+                <Route path='/zomia' component={Zomia} />
 
-              <Route path='/calendar' component={Calendar} />
-            </div>
-          </nav>
-        </Router>
-        <Footer />
+                <Route path='/donate' component={Donate} />
+
+                <Route path='/calendar' component={Calendar} />
+              </div>
+            </nav>
+          </Router>
+          <Footer />
+        </div>
       </div>
     );
   }
