@@ -37,7 +37,7 @@ class NavBar extends Component {
           </div>
           <div className="navbar">
             <div className="dropdown">
-              <button onClick={() => this.showDM("about")} className="dropbtn">About 
+              <button id="about" onClick={() => this.showDM("about")} className="dropbtn">About 
                 <i className="fa fa-caret-down"></i>
               </button>
               { this.state.displayMenu === "about" ? ( 
@@ -53,7 +53,7 @@ class NavBar extends Component {
               }
             </div>
             <div className="dropdown">
-              <button onClick={() => this.showDM("academics")} className="dropbtn">Academics 
+              <button  onClick={() => this.showDM("academics")} className="dropbtn">Academics 
                 <i className="fa fa-caret-down"></i>
               </button>
               { this.state.displayMenu === "academics" ? (
