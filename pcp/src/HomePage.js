@@ -7,22 +7,8 @@ class HomePage extends Component {
     return (
       <div>
         <ControlledCarousel/>
-        <div classNameName="videoBlock">
-          <div classNameName="Left">
-            <iframe width="873.6px" height="495px" src="https://www.youtube.com/embed/SxhsBBR-dOI?controls=0&amp;showinfo=0" frameBorder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="The Pre-Collegiate Program of Yangon">
-            </iframe>
-          </div>
-            
-          <div classNameName="Right">
-            <div classNameName="text" >
-            <h3>Education is not the filling of a pail, but the lighting of a fire.</h3>
-            <h3>—William Butler Yeats</h3>
-          </div>
-          </div>
-        </div>
-
-        <div classNameName="hp">
-          <p classNameName="main">
+        <div className="Body">
+          <p className="main">
           Since 2003 the Pre-Collegiate Program has had the singular mission
           to create a society of educated innovators, leaders, and change-makers
           who solve important challenges in Myanmar and beyond. After an intensive

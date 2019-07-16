@@ -38,8 +38,8 @@ class App extends Component {
         <div className="App">
           <Router>
             <NavBar className="nav"/>
-            <div className="Body">
               <Route name="home" exact path="/" component={HomePage} />
+            <div className="Body">
               <Route path='/alumni' component={Alumni} />
               <Route path='/history' component={History} />
               <Route path='/mission' component={Mission} />
