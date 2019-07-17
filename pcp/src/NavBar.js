@@ -13,21 +13,10 @@ class NavBar extends Component {
 
   }
 
-  wait(ms){
-    var start = new Date().getTime();
-    var end = start;
-    while(end < start + ms) {
-      end = new Date().getTime();
-   }
- }
-
   showDM (type) {
    this.setState({ displayMenu: type }, () => {
       document.addEventListener('click', this.hideDM);
     });
-    this.wait(200);
-    var ddc = document.getElementsByClassName(type)
-    ddc.classList.add("test");
   }
 
   hideDM (ev) {

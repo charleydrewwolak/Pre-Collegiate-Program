@@ -144,5 +144,6 @@ width:100%;
 
 
 .test {
-background-color: #f9a404
+  border-bottom: 2px solid;
+  border-color: #f9a404;
 }

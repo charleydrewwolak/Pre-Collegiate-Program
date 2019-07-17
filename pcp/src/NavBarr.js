@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './NavBar.css'; 
 import './Body.css'
 import Logo from './images/LOGO_NEW.svg'
+import { underline } from 'ansi-colors';
 
 class NavBar extends Component {
     constructor(){
@@ -110,22 +111,47 @@ class NavBar extends Component {
                         }
                     ]
                 }
-
-            ]
+            ],
+            isActive: null
         };
     }
-  
+
+    componentDidMount(){
+        document.addEventListener('mousedown', this.handleClickOutside);
+    }
+
+    componentWillUnmount(){
+        document.removeEventListener('mousedown', this.handleClickOutside);
+    }
+
     activateMenu = (type) => {
-        document.addEventListener('click', this.hideDM);
         this.setState(prevState => {
             prevState.displayMenu = type;
             for(let i=0; i<prevState.menu.length; i++){
                 prevState.menu[i].isOpen = prevState.menu[i].type == type ? true : false;
             }
+            document.getElementById(type).classList.add("test")
             return prevState;
         });
     }
-  
+
+    setMenuWrapper = node => {
+        this.setState({isActive: node});
+    }
+
+
+    handleClickOutside = e => {         
+        if (this.state.isActive && !this.state.isActive.contains(e.target)) {
+            this.setState(prevState => {
+                for(let i=0; i<prevState.menu.length; i++){
+                    prevState.menu[i].isOpen = false;
+                }
+                document.getElementById(prevState.displayMenu).classList.remove("test")
+                return prevState;
+            })
+        }
+    }
+
     render() {
         return (
             <header>
@@ -137,19 +163,19 @@ class NavBar extends Component {
                         <h1 className="pcp"><strong>The Pre-Collegiate Program </strong>of Yangon</h1>
                     </div>
                     <div className="navbar">
-                        <div className="dropdown">
+                        <div ref={this.setMenuWrapper} id="set-menu-wrapper">
                             { this.state.menu.map(m => (
-                                <div>
-                                    <button onClick={() => this.activateMenu(m.type)} className="dropbtn">{m.type} 
+                                <div className="dropdown">
+                                    <button id={m.type} onClick={() => this.activateMenu(m.type)} className="dropbtn">{m.type} 
                                     <i className="fa fa-caret-down"></i>
                                     </button>
                                     { m.isOpen && 
                                         <div className="dropdown-content" id="ddc">
                                             { m.links.map(l => (
-                                                <a href={l.link}><Link to={l.link}>{l.title}</Link></a>
+                                                <a href={l.link}>{l.title}</a>
                                             ))}
                                         </div>
-                                    }                                    
+                                    }
                                 </div>
                             ))}
                         </div>
