@@ -123,16 +123,16 @@ class NavBar extends Component {
     }
 
     activateMenu = (type) => {
-
         this.setState(prevState => {
             if (prevState.displayMenu){
-                document.getElementById(prevState.displayMenu).classList.remove("test")
+                document.getElementById(prevState.displayMenu).classList.remove("underlined")
             }
             prevState.displayMenu = type;
             for(let i=0; i<prevState.menu.length; i++){
                 prevState.menu[i].isOpen = prevState.menu[i].type === type ? true : false;
                 
             }
+            document.getElementById(type).classList.add("underlined")
             return prevState;
         });
 
@@ -148,10 +148,10 @@ class NavBar extends Component {
             this.setState(prevState => {
                 for(let i=0; i<prevState.menu.length; i++){
                     prevState.menu[i].isOpen = false;
-                   // document.getElementById(prevState.menu[i].type).classList.remove("test")
+                   // document.getElementById(prevState.menu[i].type).classList.remove("underlined")
                 }
                 if (prevState.displayMenu){
-                    document.getElementById(prevState.displayMenu).classList.remove("test")
+                    document.getElementById(prevState.displayMenu).classList.remove("underlined")
                 }
                 
                 return prevState;
