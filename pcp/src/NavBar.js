@@ -150,7 +150,10 @@ class NavBar extends Component {
                     prevState.menu[i].isOpen = false;
                    // document.getElementById(prevState.menu[i].type).classList.remove("test")
                 }
-                document.getElementById(prevState.displayMenu).classList.remove("test")
+                if (prevState.displayMenu){
+                    document.getElementById(prevState.displayMenu).classList.remove("test")
+                }
+                
                 return prevState;
             })
         }

@@ -48,11 +48,12 @@ header {
 
 .navbar {
     clear: both;
+    
     width: 90%;
     overflow: hidden;
     text-align: center;
     table-layout: fixed;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
     padding-left: 15px
   }
 
@@ -63,7 +64,6 @@ header {
   overflow: hidden;
   padding-top: 0px;
   padding-bottom: 11px;
-  border-top: 0px solid;
   width: 16.6%;
 
 }
@@ -107,20 +107,20 @@ width:100%;
 }
 
 /* Dropdown content (hidden by default) */
+
 .dropdown-content {
   display: block;
   position: absolute;
   background-color: white;
-  width: 13%;
-  border-left: #1d1d21 solid;
-  border-right: #1d1d21 solid;
-  border-bottom: #1d1d21 solid;
+  width: 12%;
+  border-left: grey solid;
+  border-right: grey solid;
+  border-bottom: grey solid;
   border-width: 1px;
   z-index: 1;
-  transform: translateY(19px);
-  transition-delay: .5s;
-  -webkit-transition: all 0.6s linear;
-  transition: width 2s;
+  transform: translateY(15.95px) translateX(-4px);
+
+ 
 
 }
 
