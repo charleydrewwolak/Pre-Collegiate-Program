@@ -1,144 +1,195 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './NavBar.css'; 
 import './Body.css'
 import Logo from './images/LOGO_NEW.svg'
 
 class NavBar extends Component {
-  constructor(){
-    super();
-    this.state =  { displayMenu: '' }
-    this.showDM = this.showDM.bind(this);
-    this.hideDM = this.hideDM.bind(this);
+    constructor(){
+      super();       
+        
+        this.state = {
+            menu: [
+                {
+                    type: 'About',
+                    isOpen: false,
+                    links: [
+                        {
+                            title: "Mission",
+                            link: "/mission"
+                        },
+                        {
+                            title: "History",
+                            link: "/history"
+                        },
+                        {
+                            title: "Alumni",
+                            link: "/alumni"
+                        }
+                    ]
+                },
+                {
+                    type: 'Academics',
+                    isOpen: false,
+                    links: [
+                        {
+                            title: "Liberal Arts Education",
+                            link: "/liberal-arts"
+                        },
+                        {
+                            title: "Our Faculty and Staff",
+                            link: "/faculty-and-staff"
+                        },
+                        {
+                            title: "Our Curriculum",
+                            link: "/curriculum"
+                        },
+                        {
+                            title: "Study Abroad",
+                            link: "/study-abroad"
+                        }
+                    ]
+                },
+                {
+                    type: 'Student Life',
+                    isOpen: false,
+                    links: [
+                        {
+                            title: "Student Life",
+                            link: "/student-life"
+                        },
+                        {
+                            title: "Blog",
+                            link: "/blog"
+                        }
+                    ]
+                },
+                {
+                    type: 'Admissions',
+                    isOpen: false,
+                    links: [
+                        {
+                            title: "Enroll",
+                            link: "/apply"
+                        },
+                        {
+                            title: "Fees and Financial Aid",
+                            link: "/financial-aid"
+                        }
+                    ]
+                },
+                {
+                    type: 'Connect',
+                    isOpen: false,
+                    links: [
+                        {
+                            title: "Partner With Us",
+                            link: "/partner"
+                        },
+                        {
+                            title: "Hire and Intern",
+                            link: "/intern"
+                        },
+                        {
+                            title: "Join Our Team",
+                            link: "/join"
+                        },
+                        {
+                            title: "Partnerships",
+                            link: "/partnerships"
+                        }
+                    ]
+                },
+                {
+                    type: 'Student Resources',
+                    isOpen: false,
+                    links: [
+                        {
+                            title: "Academic Calendar",
+                            link: "/calendar"
+                        }
+                    ]
+                }
+            ],
+            isActive: null
+        };
+    }
 
-  }
+    componentDidMount(){
+        document.addEventListener('mousedown', this.handleClickOutside);
+    }
 
-  showDM (type) {
-   this.setState({ displayMenu: type }, () => {
-      document.addEventListener('click', this.hideDM);
-    });
-  }
+    componentWillUnmount(){
+        document.removeEventListener('mousedown', this.handleClickOutside);
+    }
 
-  hideDM (ev) {
-    this.setState({ displayMenu: '' }, () => {
-      document.removeEventListener('click', this.hideDM)
-    });
-  }
+    activateMenu = (type) => {
 
-  render() {
-    return (
-      <header>
-        <div className="image">
-          <a href="./"><img className="logo" src={Logo} alt="Pre-Collegiate Program Yangon" /></a>
-        </div>
-        <div className="right">
-          <div className="text">
-            <h1 className="pcp"><strong>The Pre-Collegiate Program </strong>of Yangon</h1>
-          </div>
-          <div className="navbar">
-            <div className="dropdown">
-              <button id="about" onClick={() => this.showDM("about")} className="dropbtn">About 
-                <i className="fa fa-caret-down"></i>
-              </button>
-              { this.state.displayMenu === "about" ? ( 
-              <div className="dropdown-content" id="ddc">
-                <a href="#mission"><Link to="/mission">Mission</Link></a>
-                <a href="#history"><Link to="/history">History</Link></a>
-                <a href="#alumni"><Link to="/alumni">Alumni</Link></a>
-              </div>
-              ):
-              ( 
-                null 
-              )
-              }
-            </div>
-            <div className="dropdown">
-              <button  onClick={() => this.showDM("academics")} className="dropbtn">Academics 
-                <i className="fa fa-caret-down"></i>
-              </button>
-              { this.state.displayMenu === "academics" ? (
-              <div className="dropdown-content" id="ddc">
-                <a href="#liber-alarts"><Link to="/liberal-arts">Liberal Arts Education</Link></a>
-                <a href="#faculty-and-staff"><Link to="/faculty-and-staff">Our Faculty and Staff</Link></a>
-                <a href="#curriculum"><Link to="/curriculum">Our Curriculum</Link></a>
-                <a href="#study-abroad"><Link to="/study-abroad">Study Abroad</Link></a>
-              </div>
-              ):
-              ( 
-                null 
-              )
-              }
-            </div> 
-            <div className="dropdown">
-              <button onClick={() => this.showDM("student-life")} className="dropbtn">Student Life 
-                <i className="fa fa-caret-down"></i>
-              </button>
-              { this.state.displayMenu === "student-life" ? (
-              <div className="dropdown-content" id="ddc">
-                <a href="#sl"><Link to="/studentlife">Student Life</Link></a>
-                <a href="#blog"><Link to="/blog">Blog</Link></a>
-              </div>
-              ):
-              ( 
-                null 
-              )
-              }
-            </div> 
-            
-            <div className="dropdown">
-              <button onClick={() => this.showDM("admissions")} className="dropbtn">Admissions 
-                <i className="fa fa-caret-down"></i>
-              </button>
-              { this.state.displayMenu === "admissions" ? (
-              <div className="dropdown-content" id="ddc">
-                <a href="#apply"><Link to="/apply">Enroll</Link></a>
-                <a href="#financial-aid"><Link to="/financial-aid">Fees and Financial Aid</Link></a>
-              </div>
-              ):
-              ( 
-                null 
-              )
-              }
-            </div> 
-            <div className="dropdown">
-              <button  onClick={() => this.showDM("connect")} className="dropbtn">Connect 
-                <i className="fa fa-caret-down"></i>
-              </button>
-              { this.state.displayMenu === "connect" ? (
-              <div className="dropdown-content" id="ddc">
-                <a href="#partner"><Link to="/partner">Partner With Us</Link></a>
-                <a href="#intern"><Link to="/intern">Hire an Intern</Link></a>
-                <a href="#join"><Link to="/join">Join our Team</Link></a>
-                <a href="#partnerships"><Link to="/partnerships">Partnerships</Link></a>
-              </div>
-              ):
-              ( 
-                null 
-              )
-              }
-            </div> 
-            <div className="dropdown">
-              <button onClick={() => this.showDM("student-resources")} className="dropbtn">Student Resources 
-                <i className="fa fa-caret-down"></i>
-              </button>
-              { this.state.displayMenu === "student-resources" ? (
-              <div className="dropdown-content" id="ddc">
-                <a href="#calendar"><Link to="/calendar">Academic Calendar</Link></a>
-              </div>
-              ):
-              ( 
-                null 
-              )
-              }
-          
-            </div>   
-          </div>
-        </div>
-        <div className="line"></div>
-      </header>
-    )
-  }
+        this.setState(prevState => {
+            if (prevState.displayMenu){
+                document.getElementById(prevState.displayMenu).classList.remove("test")
+            }
+            prevState.displayMenu = type;
+            for(let i=0; i<prevState.menu.length; i++){
+                prevState.menu[i].isOpen = prevState.menu[i].type === type ? true : false;
+                
+            }
+            document.getElementById(type).classList.add("test")
+            return prevState;
+        });
+    }
+
+    setMenuWrapper = node => {
+        this.setState({isActive: node});
+    }
+
+
+    handleClickOutside = e => {         
+        if (this.state.isActive && !this.state.isActive.contains(e.target)) {
+            this.setState(prevState => {
+                for(let i=0; i<prevState.menu.length; i++){
+                    prevState.menu[i].isOpen = false;
+                   // document.getElementById(prevState.menu[i].type).classList.remove("test")
+                }
+                document.getElementById(prevState.displayMenu).classList.remove("test")
+                return prevState;
+            })
+        }
+    }
+
+
+    render() {
+        return (
+            <header>
+                <div className="image">
+                    <a href="./"><img className="logo" src={Logo} alt="Pre-Collegiate Program Yangon" /></a>
+                </div>
+                <div className="right">
+                    <div className="text" >
+                        <h1 className="pcp"><strong>The Pre-Collegiate Program </strong>of Yangon</h1>
+                    </div>
+                    <div className="navbar">
+                        <div ref={this.setMenuWrapper} id="set-menu-wrapper">
+                            { this.state.menu.map(m => (
+                                <div className="dropdown">
+                                    <button id={m.type} onClick={() => this.activateMenu(m.type)} className="dropbtn">{m.type} 
+                                    <i className="fa fa-caret-down"></i>
+                                    </button>
+                                    { m.isOpen && 
+                                        <div className="dropdown-content" id="ddc">
+                                            { m.links.map(l => (
+                                                <a href={l.link}>{l.title}</a>
+                                            ))}
+                                        </div>
+                                    }
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+                <div className="line"></div>
+            </header>
+        );
+    };
 }
+
 export default NavBar;
-
-
