@@ -13,10 +13,21 @@ class NavBar extends Component {
 
   }
 
+  wait(ms){
+    var start = new Date().getTime();
+    var end = start;
+    while(end < start + ms) {
+      end = new Date().getTime();
+   }
+ }
+
   showDM (type) {
    this.setState({ displayMenu: type }, () => {
       document.addEventListener('click', this.hideDM);
     });
+    this.wait(200);
+    var ddc = document.getElementsByClassName(type)
+    ddc.classList.add("test");
   }
 
   hideDM (ev) {
@@ -32,7 +43,7 @@ class NavBar extends Component {
           <a href="./"><img className="logo" src={Logo} alt="Pre-Collegiate Program Yangon" /></a>
         </div>
         <div className="right">
-          <div className="text" >
+          <div className="text">
             <h1 className="pcp"><strong>The Pre-Collegiate Program </strong>of Yangon</h1>
           </div>
           <div className="navbar">
