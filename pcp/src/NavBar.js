@@ -133,9 +133,9 @@ class NavBar extends Component {
                 prevState.menu[i].isOpen = prevState.menu[i].type === type ? true : false;
                 
             }
-            document.getElementById(type).classList.add("test")
             return prevState;
         });
+
     }
 
     setMenuWrapper = node => {
