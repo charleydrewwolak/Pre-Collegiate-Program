@@ -118,6 +118,9 @@ width:100%;
   border-width: 1px;
   z-index: 1;
   transform: translateY(19px);
+  transition-delay: .5s;
+  -webkit-transition: all 0.6s linear;
+  transition: width 2s;
 
 }
 
@@ -140,6 +143,6 @@ width:100%;
 
 
 
-#about {
-margin-left: 10px;
+.test {
+background-color: #f9a404
 }
