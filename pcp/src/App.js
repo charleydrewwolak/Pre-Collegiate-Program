@@ -29,6 +29,11 @@ import Calendar from './StudentResources/Calendar';
 
 import Donate from './Donate';
 
+import Internships from './StudentLife/Internships';
+import StudentLife from './StudentLife/StudentLife';
+import ServiceSites from './StudentLife/ServiceSites';
+import Blog from './StudentLife/Blog';
+
 
 
 class App extends Component {
@@ -63,6 +68,12 @@ class App extends Component {
               <Route path='/donate' component={Donate} />
 
               <Route path='/calendar' component={Calendar} />
+
+              <Route path='/student-life' component={StudentLife} />
+              <Route path='/internships' component={Internships} />
+              <Route path='/service-sites' component={ServiceSites} />
+              <Route path='/blog' component={Blog} />
+
             </div>
           </Router>
           <Footer />

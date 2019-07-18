@@ -61,7 +61,15 @@ class NavBar extends Component {
                         {
                             title: "Blog",
                             link: "/blog"
-                        }
+                        },
+                        {
+                            title: "Internships",
+                            link: "/internships"
+                        },
+                        {
+                            title: "Service Sites",
+                            link: "/service-sites"
+                        },
                     ]
                 },
                 {
