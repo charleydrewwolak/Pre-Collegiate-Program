@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './NavBar.css'; 
 import './Body.css'
 import Logo from './images/LOGO_NEW.svg'
+import { Link } from 'react-router-dom'
 
 class NavBar extends Component {
     constructor(){
@@ -180,7 +181,7 @@ class NavBar extends Component {
                                     { m.isOpen && 
                                         <div className="dropdown-content" id="ddc">
                                             { m.links.map(l => (
-                                                <a href={l.link}>{l.title}</a>
+                                                <Link to={l.link}>{l.title}</Link>
                                             ))}
                                         </div>
                                     }

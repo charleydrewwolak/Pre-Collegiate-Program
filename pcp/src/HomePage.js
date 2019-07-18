@@ -7,7 +7,7 @@ class HomePage extends Component {
     return (
       <div>
         <ControlledCarousel/>
-        <div className="Body">
+        <div className="hp">
           <p className="main">
           Since 2003 the Pre-Collegiate Program has had the singular mission
           to create a society of educated innovators, leaders, and change-makers
@@ -24,8 +24,6 @@ class HomePage extends Component {
 
 To become a member of the Pre-Collegiate Program is to embark on a lifelong journey of learning and engagement. For those who choose to take on this challenge, the community of the Program will be with you every step of the way.
 </p>
-
-
         </div>
       </div>
       
