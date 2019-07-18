@@ -45,7 +45,7 @@ class App extends Component {
               <Route path='/mission' component={Mission} />
 
               <Route path='/curriculum' component={Curriculum} />
-              <Route path='/faculty-staff' component={FacultyStaff} />
+              <Route path='/faculty-and-staff' component={FacultyStaff} />
               <Route path='/liberal-arts' component={LiberalArts} />
               <Route path='/study-abroad' component={StudyAbroad} />
 

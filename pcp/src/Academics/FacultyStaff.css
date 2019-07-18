@@ -1,0 +1,36 @@
+.profile {
+    border: 1px solid lightgray;
+    display: flex;
+    margin-bottom: 10px;
+}
+.bio {
+    text-align: left;
+    padding-left: 15px;
+    float: left;
+    display: 50%;
+    padding-right: 40px;
+}
+.bio img {
+    width: 150px;
+    height: 180px;
+    display: block;
+    background-color: grey; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.background {
+    float: left;
+    display: block;
+    padding-right: 30px;
+    padding-top: 8px;
+}
+.background i, .background h2{
+    line-height: 5px;
+}
+.background p {
+    margin-top: 10px;
+}
+
+
+

@@ -1,7 +1,7 @@
 
 
 header {
-  padding-top: 10px;
+  padding-top: 5px;
   display:block;
   width: 100%;
 }
@@ -12,12 +12,13 @@ header {
   width: 90%;
 }
 .image img {
-  width: 70px;
+  width: 72px;
   padding-top:17px;
   display: block;
   overflow: hidden;
   padding-left: 20px;
   float: left;
+  transform: translateY(-3px);
 
 
 }
