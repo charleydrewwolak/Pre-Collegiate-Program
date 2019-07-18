@@ -32,6 +32,8 @@ class ControlledCarousel extends Component {
           activeIndex={index}
           direction={direction}
           onSelect={this.handleSelect}
+          prevLabel=""
+          nextLabel=""
         >
           <Carousel.Item>
             <img
