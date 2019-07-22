@@ -1,3 +1,6 @@
+.t table {
+    width: 100%;
+}
 .t table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -6,7 +9,7 @@
 
 .t  {
     padding: 5px;
-    text-align: center;
+    text-align: left;
 }
 .t th, td {
     padding: 10px;
