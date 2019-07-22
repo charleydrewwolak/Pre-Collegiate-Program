@@ -23,7 +23,7 @@ class FacultyStaff extends Component {
           bio: "is a graduate of the Pre-Collegiate Program of Yangon. Upon her graduation from the Asian University for Women in 2014 with a major in Public Health Sciences and a minor in Asian Studies, she joined PCP as the Dean of Administration. "
         },
         {
-          name: "",
+          name: "Khaing Ei Mon",
           title: "",
           bio: ""
         },
@@ -37,7 +37,7 @@ class FacultyStaff extends Component {
         { this.state.profiles.map(m => (
           <div className="profile">
             <div className="bio">
-              <img alt="Portrait" className="portrait" src={require(`./${m.name.replace(' ','')}.jpg`)}/>
+              <img alt="Portrait" className="portrait" src={require(`./staff/${m.name.replace(' ','')}.jpg`)}/>
             </div>
             <div className="background">
               <h2>{m.name}</h2>
