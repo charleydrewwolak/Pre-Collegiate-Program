@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Partnerships.css'
 import Zomia from './zomia.png'
+import Bonner from './bonner.png'
 
 class Partnerships extends Component {
   render() {
@@ -11,7 +12,7 @@ class Partnerships extends Component {
           <div className="pBody">
             <h3>Bonner Internship</h3>
             <p className="b">The motto "Access to Education, Opportunity to Serve" distills the overarching goal of the Bonner Program.  Since 1990, a diverse, multi-state consortium of participating colleges and universities have been joined through a common commitment to the Corella and Bertram F. Bonner Foundation’s mission to “transform students, communities, and campuses through service.” </p>
-            <img className="pLogo"/>
+            <img className="pLogo" src={Bonner} width="100%" alt="Bonner Logo"/>
           </div>
           <button className="pButton" href="/bonner">Learn More</button>
         </div>
