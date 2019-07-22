@@ -8,10 +8,15 @@ class Internships extends Component {
     this.state = {
       sites: [
         {
-          name: "Tagu Films",
+          name: "360Ed",
           description: "Established in 2013, Tagu Films is composed of local Myanmar filmmakers with international experience. Since its inception, Tagu Films has strived to showcase Myanmar through creative visual storytelling that captures this unique country.",
           link: "https://tagufilms.com/"
         },
+        {
+          name: "Tagu Films",
+          description: "Established in 2013, Tagu Films is composed of local Myanmar filmmakers with international experience. Since its inception, Tagu Films has strived to showcase Myanmar through creative visual storytelling that captures this unique country.",
+          link: "https://tagufilms.com/"
+        }
       ]
     }
   }
