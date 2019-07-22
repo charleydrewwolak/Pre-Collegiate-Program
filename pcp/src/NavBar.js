@@ -119,7 +119,10 @@ class NavBar extends Component {
                     ]
                 }
             ],
-            isActive: null
+            isActive: null,
+            activePage: null,
+            activeGroup: null,
+            openGroup: null,
         };
     }
 
@@ -133,7 +136,7 @@ class NavBar extends Component {
 
     activateMenu = (type) => {
         this.setState(prevState => {
-            if (prevState.displayMenu){
+            if (prevState.displayMenu && prevState.displayMenu!==this.activeGroup){
                 document.getElementById(prevState.displayMenu).classList.remove("underlined")
             }
             prevState.displayMenu = type;
@@ -142,6 +145,7 @@ class NavBar extends Component {
                 
             }
             document.getElementById(type).classList.add("underlined")
+            this.openGroup = prevState.displayMenu;
             return prevState;
         });
 
@@ -159,7 +163,9 @@ class NavBar extends Component {
                     prevState.menu[i].isOpen = false;
                    // document.getElementById(prevState.menu[i].type).classList.remove("underlined")
                 }
-                if (prevState.displayMenu){
+                if (prevState.displayMenu && prevState.displayMenu !== this.activeGroup){
+                    console.log(this.activeGroup);
+                    
                     document.getElementById(prevState.displayMenu).classList.remove("underlined")
                 }
                 
@@ -168,12 +174,26 @@ class NavBar extends Component {
         }
     }
 
+    activePage = (id) => {
+        let button = this.openGroup
+        if (this.activeGroup) {document.getElementById(this.activeGroup).classList.remove("underlined")}
+        console.log(button);
+        this.activeGroup = button
+
+
+       // window.location.pathname
+
+
+    }
+
+    
+
 
     render() {
         return (
             <header>
                 <div className="image">
-                    <a href="./"><img className="logo" src={Logo} alt="Pre-Collegiate Program Yangon" /></a>
+                    <Link to="./"><img className="logo" src={Logo} alt="Pre-Collegiate Program Yangon" /></Link>
                 </div>
                 <div className="right">
                     <div className="text" >
@@ -189,7 +209,7 @@ class NavBar extends Component {
                                     { m.isOpen && 
                                         <div className="dropdown-content" id="ddc">
                                             { m.links.map(l => (
-                                                <Link to={l.link}>{l.title}</Link>
+                                                <Link onClick={() => this.activePage(l.link)} id={l.link} to={l.link}>{l.title}</Link>
                                             ))}
                                         </div>
                                     }
