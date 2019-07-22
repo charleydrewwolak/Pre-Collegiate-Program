@@ -37,12 +37,13 @@ class FacultyStaff extends Component {
         { this.state.profiles.map(m => (
           <div className="profile">
             <div className="bio">
-              <img alt="Portrait" className="portrait"/>
+              <img alt="Portrait" className="portrait" src={require(`./${m.name.replace(' ','')}.png`)}/>
             </div>
             <div className="background">
               <h2>{m.name}</h2>
               <i>{m.title}</i> 
               <p>{m.bio}</p>
+
             </div>
           </div>
          ))}
