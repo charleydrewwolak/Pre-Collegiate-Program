@@ -5,9 +5,7 @@
 .t table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-
   }
-
 .t  {
     padding: 5px;
     text-align: left;
@@ -17,10 +15,15 @@
 }
 
 .logos {
-    width: 50px;
+    width: 60px;
+    padding-left: 5px;
 }
-.t td {
-    border: none;
+.t .RB {
+    border-right: none;
+}
+.t .LB {
+    border-left: none;
+    padding-bottom: 15px;
 }
 
 .t .title {
