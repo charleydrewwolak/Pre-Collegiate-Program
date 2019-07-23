@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom'
 class NavBar extends Component {
     constructor(){
       super();       
-        
         this.state = {
             menu: [
                 {
@@ -164,29 +163,27 @@ class NavBar extends Component {
                    // document.getElementById(prevState.menu[i].type).classList.remove("underlined")
                 }
                 if (prevState.displayMenu && prevState.displayMenu !== this.activeGroup){
-                    console.log(this.activeGroup);
-                    
                     document.getElementById(prevState.displayMenu).classList.remove("underlined")
                 }
-                
                 return prevState;
             })
         }
     }
 
-    activePage = (id) => {
-        let button = this.openGroup
-        if (this.activeGroup) {document.getElementById(this.activeGroup).classList.remove("underlined")}
-        console.log(button);
-        this.activeGroup = button
-
-
-       // window.location.pathname
-
-
+    trackPage = (id) => {
+        this.setState(prevState => {
+            for(let i=0; i<prevState.menu.length; i++){
+            prevState.menu[i].isOpen = false;
+           // document.getElementById(prevState.menu[i].type).classList.remove("underlined")
+        }
+            
+            let button = this.openGroup
+            if (this.activeGroup && id !== this.activePage) {document.getElementById(this.activeGroup).classList.remove("underlined")}
+            this.activeGroup = button
+            this.activePage = id
+            return prevState;
+        })
     }
-
-    
 
 
     render() {
@@ -208,9 +205,12 @@ class NavBar extends Component {
                                     </button>
                                     { m.isOpen && 
                                         <div className="dropdown-content" id="ddc">
-                                            { m.links.map(l => (
-                                                <Link onClick={() => this.activePage(l.link)} id={l.link} to={l.link}>{l.title}</Link>
-                                            ))}
+                                            { m.links.map(l => {
+                                                if (l.link===this.activePage)
+                                                    return <Link onClick={() => this.trackPage(l.link)} id="activeButton" to={l.link}>{l.title}</Link>
+                                                return <Link onClick={() => this.trackPage(l.link)} to={l.link}>{l.title}</Link>
+                                            })
+                                        }
                                         </div>
                                     }
                                 </div>

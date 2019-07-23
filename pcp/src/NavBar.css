@@ -106,9 +106,8 @@ width:100%;
   border-color: #f9a404;
 }
 
-.activeButton {
-  border-bottom: 2px solid;
-  border-color: #f9a404;
+#activeButton {
+  background-color: #ddd;
 }
 
 /* Dropdown content (hidden by default) */
