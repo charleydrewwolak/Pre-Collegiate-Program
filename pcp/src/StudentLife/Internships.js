@@ -35,7 +35,7 @@ class Internships extends Component {
         { this.state.sites.map(m => (
           <tr>
         
-            <td className="RB"><a href={m.link}><img className="logos" src={require(`./internshipLogos/${m.name.replace(' ', '').toLowerCase()}.png`)} alt="logo"/></a></td>
+            <td className="RB"><a href={m.link} target="_blank" rel="noopener noreferrer"><img className="logos" src={require(`./internshipLogos/${m.name.replace(' ', '').toLowerCase()}.png`)} alt="logo" /></a></td>
             <td className="LB"><strong className="title">{m.name}</strong> <br/> {m.description}</td>
           </tr>
         ))}
