@@ -47,13 +47,15 @@ class ServiceSites extends Component {
       <div>
         <h3>Service Sites</h3>
         <table className="ss">
-          {this.formatList().map(r => (
-            <tr>
-              {r.map(c => (
-                <td>{c}</td>
-              ))}
-            </tr>
-          ))}
+          <tbody>
+            {this.formatList().map(r => (
+              <tr>
+                {r.map(c => (
+                  <td>{c}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
         </table>
         
       </div>
