@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Table.css'
+import './Internships.css'
 
 
 class Internships extends Component {
