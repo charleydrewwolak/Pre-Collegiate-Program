@@ -167,6 +167,7 @@ class NavBar extends Component {
                 if (prevState.displayMenu && prevState.displayMenu !== this.activeGroup){
                     document.getElementById(prevState.displayMenu).classList.remove("underlined")
                 }
+                if (document.getElementById('menu2').classList.contains('show')){this.hideNavBar()}
                 return prevState;
             })
         }
@@ -183,6 +184,7 @@ class NavBar extends Component {
             if (this.activeGroup && id !== this.activePage) {document.getElementById(this.activeGroup).classList.remove("underlined")}
             this.activeGroup = button
             this.activePage = id
+            if (document.getElementById('menu2').classList.contains('show')){this.hideNavBar()}
             return prevState;
         })
     }

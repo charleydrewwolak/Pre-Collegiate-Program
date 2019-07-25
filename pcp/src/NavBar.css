@@ -21,8 +21,10 @@ header {
   padding-left: 20px;
   float: left;
   transform: translateY(-4px);
+}
 
-
+#menu1 #menu2 {
+  display: none;
 }
 .pcp{
   float: left;
@@ -160,10 +162,6 @@ width:100%;
   display: none;
 }
 
-.show {
-  display: block !important;
-}
-
 .mtext {
   display: none;
 }
@@ -245,9 +243,12 @@ width:100%;
     border-color: #f9a404;
     color: #f9a404;
   }
-}
-.hide {
-  display: none !important;
+  .show {
+    display: block !important;
+  }
+  .hide {
+    display: none !important;
+  }
 }
 @-webkit-keyframes scale-up-ver-top {
   0% {
