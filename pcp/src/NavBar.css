@@ -4,19 +4,19 @@
 
 header {
   padding-top: 5px;
-  display:block;
+  display: table;
   width: 100%;
 }
 
 .right {
   float: left;
-  display: block;
-  width: 90%;
+  display: table-cell;
+  width: 80%;
 }
 .image {
   width: 72px;
   padding-top:17px;
-  display: block;
+  display: table-cell;
   overflow: hidden;
   padding-left: 20px;
   float: left;
@@ -44,14 +44,18 @@ header {
   line-height: 2px;
   overflow: hidden;
   position: relative;
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
+  width: 540px;;
   
+}
+.text h1 {
+  width: 100%;
+  text-align: left;
 }
 
 .navbar {
     clear: both;
-    width: 90%;
+    width: 100%;
     overflow: hidden;
     text-align: center;
     table-layout: fixed;
@@ -86,12 +90,9 @@ width:100%;
   font-size: 14px; 
   border: none;
   outline: none;
+  padding: 0;
   color:#1d1d21;
-
   display: block;
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-top: 0px;
   padding-bottom: 0px; 
   background-color: inherit;
   text-align: center;
@@ -160,16 +161,6 @@ width:100%;
 
 @media only screen and (max-width: 700px) {
   .image {
-    display: block;
-    float: none;
-    padding: 0px;
-    padding-top: 10px;
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
-  .image img {
-    width: 20%;
   }
   .pcp strong {
     display: block;
@@ -186,7 +177,6 @@ width:100%;
   }
   .pcp h1{
     text-align: center;
-
   }
   .text {
     width: 97.3%;
@@ -208,6 +198,7 @@ width:100%;
   }
   .dropdown-content {
     width: 40%;
+    display: block;
     -webkit-animation: scale-up-ver-topp 0.2s linear both;
           animation: scale-up-ver-topp 0.2s linear both;
           
