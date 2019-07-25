@@ -156,42 +156,58 @@ width:100%;
   border-bottom: 2px solid;
   border-color: #f9a404;
 }
+#menu1, #menu2 {
+  display: none;
+}
 
+
+.show {
+  display: block;
+}
 
 
 @media only screen and (max-width: 700px) {
+
   .image {
+    width: 60px;
+    padding-left: 5px;
   }
   .pcp strong {
     display: block;
 
   }
   .right {
-    width: 100%;
+    width: 80%;
   }
+
   .pcp {
-    font-size: 20px;
     width: 100%;
-    padding-left: 0px;
-    line-height: 20px;
+    margin-top: 12px;
+    padding-left: 10px;
+    line-height: 25px;
+    font-size: 22px;
   }
-  .pcp h1{
-    text-align: center;
-  }
+ 
   .text {
-    width: 97.3%;
+    width: 280px;
     padding: none;
     display: block;
   }
+
+  #menu1 {
+    display: block;
+    width: 10%;
+  }
   .navbar {
+    display: none;
     padding-left: 0px;
     width: 100%;
     height: 20px;
+
   }
   .dropbtn {
     font-size: 10px;
     display: inline;
-    width: 98%;
     padding-top: 5px;
     padding-bottom: 5px;
     border: 1px solid grey;

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './NavBar.css'; 
 import './Body.css'
 import Logo from './images/LOGO_NEW.svg'
+import Menu1 from './Menu 1.svg'
+import Menu2 from './Menu 2.svg'
 import { Link } from 'react-router-dom'
 
 class NavBar extends Component {
@@ -185,6 +187,18 @@ class NavBar extends Component {
         })
     }
 
+    showNavBar = () => {
+        document.getElementsByClassName("navbar").classList.add("show")
+        document.getElementById("menu2").classList.add("show")
+        document.getElementById("menu1").classList.remove("show")
+
+    }
+
+    hideNavBar = () => {
+        document.getElementsByClassName("navbar").classList.remove("show")
+        document.getElementById("menu1").classList.add("show")
+        document.getElementById("menu2").classList.remove("show")
+    }
 
     render() {
         return (
@@ -196,6 +210,8 @@ class NavBar extends Component {
                     <div className="text" >
                         <h1 className="pcp"><strong>The Pre-Collegiate Program </strong>of Yangon</h1>
                     </div>
+                    <img id="menu1" src={Menu1} onClick={this.showNavBar()} alt="Menu" />
+                    <img id="menu2" src={Menu2} onClick={this.hideNavBar()} alt="Menu" />
                     <div className="navbar">
                         <div ref={this.setMenuWrapper} id="set-menu-wrapper">
                             { this.state.menu.map(m => (
