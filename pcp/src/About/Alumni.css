@@ -1,0 +1,33 @@
+.profile {
+    border: 1px solid lightgray;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.profile img {
+    width: 300px;
+    display: block;
+    background-color: #808080; 
+    margin: 15px;
+    
+}
+.info {
+    float: left;
+    display: block;
+    padding-right: 30px;
+
+}
+.Name {
+    padding-top: 10px;
+    font-size: 30px;
+    padding-right: 10px;
+}
+.info p {
+    margin-top: 10px;
+}
+.title{
+    padding-top: 10px;
+}
+
+
+

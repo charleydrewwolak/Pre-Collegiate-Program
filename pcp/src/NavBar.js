@@ -108,7 +108,7 @@ class NavBar extends Component {
                     ]
                 },
                 {
-                    type: 'Student Resources',
+                    type: 'Resources',
                     isOpen: false,
                     links: [
                         {
