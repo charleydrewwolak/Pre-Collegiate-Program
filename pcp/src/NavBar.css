@@ -136,12 +136,12 @@ width:100%;
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
   display: block;
   text-align: left;
   font-size: 14px;
- 
+  font-weight: 400;
 }
 
 /* Add a grey background color to dropdown links on hover */

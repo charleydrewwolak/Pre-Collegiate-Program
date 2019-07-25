@@ -25,14 +25,13 @@
     clear: both;
     line-height: 200%;
     font-kerning: normal;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.5px;
   }
   
 
   p {
     font-weight: 300;
     font-size: 14px;
-    
   }
   
 
