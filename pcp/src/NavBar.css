@@ -165,44 +165,54 @@ width:100%;
   display: block;
 }
 
+.mtext {
+  display: none;
+}
 
 @media only screen and (max-width: 700px) {
 
   .image {
-    width: 60px;
-    padding-left: 5px;
+    width: 13vw;
+    padding: 5px;
   }
   .pcp strong {
     display: block;
-
   }
-  .right {
-    width: 80%;
-  }
-
   .pcp {
-    width: 100%;
-    margin-top: 12px;
-    padding-left: 10px;
-    line-height: 25px;
-    font-size: 22px;
+    margin-top: 5px;
+    padding-left: 1vw;
+    line-height: 6vw;
+
+    font-size: 5vw;
   }
  
-  .text {
-    width: 280px;
+  .mtext {
     padding: none;
+    float: left;
     display: block;
+  }
+  .text {
+    display: none;
   }
 
   #menu1 {
     display: block;
-    width: 10%;
+  }
+  #menu1, #menu2 {
+    width: 7vw;
+  }
+
+  .Menu {
+    float:right;
+    width:10%;
+    display: block;
+    padding: 1vw;
+    padding-top: 3vw;
   }
   .navbar {
     display: none;
     padding-left: 0px;
     width: 100%;
-    height: 20px;
 
   }
   .dropbtn {
