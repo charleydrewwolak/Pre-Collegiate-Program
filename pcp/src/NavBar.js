@@ -186,17 +186,20 @@ class NavBar extends Component {
             return prevState;
         })
     }
-    showNavBar = () => {
-        document.getElementsByClassName("navbar").classList.add("show")
-        document.getElementById("menu2").classList.add("show")
-        document.getElementById("menu1").classList.remove("show")
+
+    showNavBar() {
+        
+        document.getElementById('nb').classList.add("show")
+        document.getElementById('menu1').classList.add("hide")
+        document.getElementById('menu2').classList.add("show")
 
     }
 
     hideNavBar = () => {
-        document.getElementsByClassName("navbar").classList.remove("show")
-        document.getElementById("menu1").classList.add("show")
-        document.getElementById("menu2").classList.remove("show")
+        document.getElementById('nb').classList.remove("show")
+        document.getElementById('menu1').classList.remove("hide")
+        document.getElementById('menu2').classList.remove("show")
+        
     }
 
  
@@ -211,14 +214,14 @@ class NavBar extends Component {
                     <h1 className="pcp"><strong>The Pre-Collegiate Program </strong>of Yangon</h1>
                 </div>
                 <div className="Menu">
-                        <img id="menu1" src={Menu1}  alt="Menu" />
-                        <img id="menu2" src={Menu2} alt="Menu" />
+                        <img id="menu1" onClick={this.showNavBar} src={Menu1}  alt="Menu" />
+                        <img id="menu2" onClick={this.hideNavBar} src={Menu2} alt="Menu" />
                 </div>
                 <div className="right">
                     <div className="text" >
                         <h1 className="pcp"><strong>The Pre-Collegiate Program </strong>of Yangon</h1>
                     </div>
-                    <div className="navbar">
+                    <div id="nb" className="navbar">
                         <div ref={this.setMenuWrapper} id="set-menu-wrapper">
                             { this.state.menu.map(m => (
                                 <div className="dropdown">
