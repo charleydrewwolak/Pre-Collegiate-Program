@@ -65,7 +65,7 @@ class Calendar extends Component {
       <div>
         <table className="calendar">
           <tbody>
-            <th colspan="2"><strong>Acedemic Calendar</strong></th>
+            <th colspan="2"><strong>Academic Calendar</strong></th>
             {this.orderEvents().map(m => (
               <tr>
                 <td className='lc'>{this.formatDate(m)}</td>
