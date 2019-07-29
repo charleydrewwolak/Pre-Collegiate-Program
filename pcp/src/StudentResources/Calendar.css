@@ -1,13 +1,26 @@
 .calendar {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 2vw;
+    border: grey solid;
 }
-.l {
-    background-color: rgb(199, 199, 199);
-    padding: 10px;
+.calendar th {
+    padding: 1vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    text-align: left;
+    background-color: grey;
+    color: white;
+    border: grey  1px solid;
 }
-.r {
-    width: 80%; 
+.lc {
+    padding: 1vw;
+}
+.rc {
+    width: 70%; 
 
+}
+
+.calendar td {
+    border: grey 1px solid;
 }

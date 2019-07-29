@@ -68,8 +68,8 @@ class Calendar extends Component {
             <th colspan="2"><strong>Acedemic Calendar</strong></th>
             {this.orderEvents().map(m => (
               <tr>
-                <td className='l'>{this.formatDate(m)}</td>
-                <td className='r'>{this.state.events[m]}</td>
+                <td className='lc'>{this.formatDate(m)}</td>
+                <td className='rc'>{this.state.events[m]}</td>
               </tr>
             ))}
           </tbody>
