@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import './Carousel.css'
 import c1 from './1.jpg'
 import c2 from './2.jpg'
@@ -46,8 +47,9 @@ class ControlledCarousel extends Component {
               width="100%"
             />
             <Carousel.Caption>
-              <h2>Liberal Arts Education in Yangon</h2>
-              <p><a href="./liberal-arts" className="aa">What is liberal arts?</a></p>
+              <h2 className="ch">Liberal Arts Education in Yangon</h2>
+              <Link to="./liberal-arts" className="aa">What is liberal arts?</Link>
+              
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -60,8 +62,8 @@ class ControlledCarousel extends Component {
               width="100%"
             />
             <Carousel.Caption>
-              <h2>Meet our Alumni</h2>
-              <p><a href="./alumni" className="aa">What are they doing now?</a></p>
+              <h2 className="ch">Meet our Alumni</h2>
+              <Link to="./alumni" className="aa">What are they doing now?</Link>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -73,10 +75,8 @@ class ControlledCarousel extends Component {
               width="100%"
             />
             <Carousel.Caption className="carousel-caption">
-              <h2>Academic Calendar</h2>
-              <p><a href="./calendar" className="aa">
-               Check when you can apply!</a>
-              </p>
+              <h2 className="ch">Academic Calendar</h2>
+              <Link to="./calendar" className="aa"> Check when you can apply!</Link>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

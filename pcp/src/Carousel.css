@@ -48,10 +48,32 @@
     text-align:left}
 
 .carousel {
-    height: 500px;
+    
     background-color: black;
 }
 
 .aa {
     color:white;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    float: left;
+    border: 1px solid;
+    text-align: center;
+    padding-bottom: .8vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: .8vw;
+    line-height: 2vw;
+    font-size: 1.3vw;
+    text-decoration: none !important;
+}
+.aa:hover{
+    background-color: #f9a404;
+    border-color: #f9a404;
+    color: white;
+}
+
+.ch {
+    line-height: 0;
+    font-size: 2vw;
 }
