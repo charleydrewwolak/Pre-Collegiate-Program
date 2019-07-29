@@ -1,0 +1,26 @@
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2vw;
+    border: grey solid;
+}
+.calendar th {
+    padding: 1vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    text-align: left;
+    background-color: grey;
+    color: white;
+    border: grey  1px solid;
+}
+.lc {
+    padding: 1vw;
+}
+.rc {
+    width: 70%; 
+
+}
+
+.calendar td {
+    border: grey 1px solid;
+}
