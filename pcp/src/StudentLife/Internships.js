@@ -3,7 +3,7 @@ import './Internships.css'
 
 
 class Internships extends Component {
-  constructor(){
+  constructor() {
     super();
     this.state = {
       sites: [
@@ -31,14 +31,15 @@ class Internships extends Component {
     return (
       <div className="t">
         <h2>Organizations</h2>
+        <p> PCP students spend a term getting hands-on experience with a variety of organizations throughout Myanmar. Here are some of the places that the students have interned in the past.</p>
         <table>
-        { this.state.sites.map(m => (
-          <tr>
-        
-            <td className="RB"><a href={m.link} target="_blank" rel="noopener noreferrer"><img className="logos" src={require(`./internshipLogos/${m.name.replace(' ', '').toLowerCase()}.png`)} alt="logo" /></a></td>
-            <td className="LB"><strong className="title">{m.name}</strong> <br/> {m.description}</td>
-          </tr>
-        ))}
+          {this.state.sites.map(m => (
+            <tr>
+
+              <td className="RB"><a href={m.link} target="_blank" rel="noopener noreferrer"><img className="logos" src={require(`./internshipLogos/${m.name.replace(' ', '').toLowerCase()}.png`)} alt="logo" /></a></td>
+              <td className="LB"><strong className="title">{m.name}</strong> <br /> {m.description}</td>
+            </tr>
+          ))}
         </table>
       </div>
     )
