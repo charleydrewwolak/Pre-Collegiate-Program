@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap'
 import './Carousel.css'
+import c1 from './1.jpg'
+import c2 from './2.jpg'
+import c3 from './3.jpg'
 
 class ControlledCarousel extends Component {
     constructor(props, context) {
@@ -38,37 +41,41 @@ class ControlledCarousel extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=First slide&bg=373940"
+              src={c1}
               alt="First slide"
+              width="100%"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h2>Liberal Arts Education in Yangon</h2>
+              <p><a href="./liberal-arts" className="aa">What is liberal arts?</a></p>
             </Carousel.Caption>
           </Carousel.Item>
+
+          
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=Second slide&bg=282c34"
+              src={c2}
               alt="Third slide"
+              width="100%"
             />
-  
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h2>Meet our Alumni</h2>
+              <p><a href="./alumni" className="aa">What are they doing now?</a></p>
             </Carousel.Caption>
           </Carousel.Item>
+
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=20232a"
+              src={c3}
               alt="Third slide"
+              width="100%"
             />
-  
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            <Carousel.Caption className="carousel-caption">
+              <h2>Academic Calendar</h2>
+              <p><a href="./calendar" className="aa">
+               Check when you can apply!</a>
               </p>
             </Carousel.Caption>
           </Carousel.Item>
