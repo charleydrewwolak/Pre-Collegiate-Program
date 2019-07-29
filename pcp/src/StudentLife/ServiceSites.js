@@ -45,7 +45,7 @@ class ServiceSites extends Component {
     console.log(this.formatList())
     return (
       <div>
-        <h3>Service Sites</h3>
+        <h2>Service Sites</h2>
         <table className="ss">
           <tbody>
             {this.formatList().map(r => (
