@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
+import './Bonner.css'
 
 class Bonner extends Component {
   render() {
     return (
       <div>
-        Bonner
+        <img src={require("./bonner.png")} width="20%"/>
+        <h1>The Bonner Foundation</h1>
+        
       </div>
     )
   }

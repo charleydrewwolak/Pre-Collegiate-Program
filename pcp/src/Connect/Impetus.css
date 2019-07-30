@@ -1,0 +1,10 @@
+.Impetus p {
+    word-wrap: break-word;
+    display: block; 
+}
+.Impetus img{
+    float: left;
+    padding-right: 1vw;
+    padding-top: .2vw;
+    width: 10%;
+}
