@@ -24,6 +24,18 @@ class Partnerships extends Component {
           link: "zomia",
           bio: 'Zomia SPC is a social purpose corporation launched in 2014 to increase access to higher education among students from marginalized communities. We do so by providing students from marginalized communities affordable education loans that are funded by philanthropic individuals and institutions from around the world.',
           logo: 'zomia.png',
+        },
+        {
+          name: "Koe Koe Tech",
+          link: "koe-koe-tech",
+          bio: 'Koe Koe Tech crafts software to reduce maternal and child mortality rates in Myanmar, to improve health indicators, and to increase access to information, resulting in positive social impacts for the people of Myanmar.',
+          logo: 'KKT.png',
+        },
+        {
+          name: "International University Alliance",
+          link: "iua",
+          bio: 'The IUA is committed to creating more opportunities for students and inspiring cross-cultural exchange, ultimately leading to better, healthier, and more peaceful, respectful and sustainable communities.',
+          logo: 'IUA.png',
         }
       ]
     }
@@ -38,10 +50,10 @@ class Partnerships extends Component {
             <div className="pBody">
               <h3>{m.name}</h3>
               <p className="b">{m.bio}</p>
-              <Link className="lButton" to={`./${m.link}`}>Learn More</Link>
+              <Link className="lButton" to={`/${m.link}`}>Learn More</Link>
             </div>
             <div className="pLogo">
-              <Link to={`./${m.link}`}><img id={m.link} src={require(`./${m.logo}`)} alt="Logo"/></Link>
+              <Link to={`/${m.link}`}><img id={m.link} src={require(`./${m.logo}`)} alt="Logo"/></Link>
               
             </div>
           </div>

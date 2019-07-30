@@ -25,6 +25,8 @@ import Partner from './Connect/Partner';
 import Partnerships from './Connect/Partnerships';
 import Team from './Connect/Team';
 import Zomia from './Connect/Zomia';
+import KoeKoeTech from './Connect/KoeKoeTech';
+import IUA from './Connect/IUA';
 
 import Calendar from './StudentResources/Calendar';
 
@@ -43,7 +45,7 @@ class App extends Component {
         <div className="App">
           <Router>
             <NavBar className="nav"/>
-              <Route name="home" exact path="/" component={HomePage} />
+              <Route name="home" exact path="./" component={HomePage} />
             <div className="Body">
               <Route path='/alumni' component={Alumni} />
               <Route path='/history' component={History} />
@@ -58,14 +60,16 @@ class App extends Component {
               <Route path='/apply' component={Apply} />
               <Route path='/financial-aid' component={FinancialAid} />
 
-              <Route path='/bonner' component={Bonner} />
-              <Route path='/impetus' component={Impetus} />
+              
               <Route path='/intern' component={Intern} />
               <Route path='/partner' component={Partner} />
-              <Route path='/partnerships' component={Partnerships} />
               <Route path='/join' component={Team} />
+              <Route path='/partnerships' component={Partnerships} />
               <Route path='/zomia' component={Zomia} />
-
+              <Route path='/iua' component={IUA} />
+              <Route path='/koe-koe-tech' component={KoeKoeTech} />
+              <Route path='/bonner' component={Bonner} />
+              <Route path='/impetus' component={Impetus} />
               <Route path='/donate' component={Donate} />
 
               <Route path='/calendar' component={Calendar} />
