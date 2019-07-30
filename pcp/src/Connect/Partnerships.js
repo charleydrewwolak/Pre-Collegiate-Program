@@ -38,7 +38,7 @@ class Partnerships extends Component {
             <div className="pBody">
               <h3>{m.name}</h3>
               <p className="b">{m.bio}</p>
-              <Link className="pButton" to={`./${m.link}`}>Learn More</Link>
+              <Link className="lButton" to={`./${m.link}`}>Learn More</Link>
             </div>
             <div className="pLogo">
               <Link to={`./${m.link}`}><img id={m.link} src={require(`./${m.logo}`)} alt="Logo"/></Link>

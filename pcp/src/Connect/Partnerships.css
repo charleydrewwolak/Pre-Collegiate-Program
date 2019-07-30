@@ -22,22 +22,5 @@
 .b {
     float: left;
 }
-.pButton{
-    margin-top: 15px;
-    margin-bottom: 1vw;
-    float: left;
-    border: 1px solid;
-    text-align: center;
-    padding: .2vw;
-    padding-top: .5vw;
-    line-height: 2vw;
-    text-decoration: none !important;
-    width: 100px;
-    height: 30px
-}
-.pButton:hover{
-    background-color: #f9a404;
-    border-color: #f9a404;
-    color: white;
-}
+
 

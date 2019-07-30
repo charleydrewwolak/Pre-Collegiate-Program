@@ -168,17 +168,18 @@ width:100%;
 
 @media only screen and (max-width: 700px) {
   .image {
-    width: 13vw;
+    width: 11vw;
     padding: 5px;
   }
   .pcp strong {
     display: block;
   }
   .pcp {
-    margin-top: 5px;
+    margin-top: 1vw;
     padding-left: 1vw;
-    line-height: 6vw;
-    font-size: 5vw;
+    line-height: 5vw;
+    font-size: 4vw;
+    margin-bottom: 1vw;
   }
   .mtext {
     padding: none;
@@ -192,7 +193,7 @@ width:100%;
     display: block;
   }
   #menu1, #menu2 {
-    width: 5.5vw;
+    width: 3.9vw;
   }
   .Menu {
     float:right;
@@ -219,7 +220,7 @@ width:100%;
     display: block;
     float: left;
     width: 100%;
-    font-size: 3vw;
+    font-size: 2.6vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
   }
@@ -233,7 +234,7 @@ width:100%;
           animation: scale-up-ver-topp 0.2s linear both;
   }
   .dropdown-content a {
-    font-size: 2.8vw;
+    font-size: 2.5vw;
     text-align: center;
     border: 1px solid white;
     background-color: rgb(240, 240, 240);

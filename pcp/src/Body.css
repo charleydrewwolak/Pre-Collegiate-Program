@@ -1,39 +1,57 @@
 .histImg {
     font-size: 10px;
     text-align: center;
-  }
-  strong{
-    font-weight: bold;
-  }
-  ul {
-    text-align: left;
-  }
-  
-  a {
-    color: #1d1d21;
-  }
-  
-  .Body {
-    background-color: white;
-    padding-bottom: 2%;
-    padding-left: 8.9%;
-    padding-right: 8%;
-    
-  }
-  
-  p, ul {
-    text-align: justify;
-    clear: both;
-    line-height: 200%;
-    font-kerning: normal;
-    letter-spacing: 0.5px;
-  }
-  
+}
+strong{
+  font-weight: bold;
+}
+ul {
+  text-align: left;
+}
 
-  p {
-    font-weight: 300;
-    font-size: 14px;
-  }
+a {
+  color: #1d1d21;
+}
+
+.Body {
+  background-color: white;
+  padding-bottom: 2%;
+  padding-left: 8.9%;
+  padding-right: 8%;
+  
+}
+
+p, ul {
+  text-align: justify;
+  clear: both;
+  line-height: 200%;
+  font-kerning: normal;
+  letter-spacing: 0.5px;
+}
+
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.lButton {
+  float: left;
+  border: 1px solid;
+  text-align: center;
+  padding-bottom: .5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: .5vw;
+  line-height: 2vw;
+  font-size: 1vw;
+  text-decoration: none !important;
+}
+.lButton:hover{
+    background-color: #f9a404;
+    border-color: #f9a404;
+    color: white;
+}
   
 
 

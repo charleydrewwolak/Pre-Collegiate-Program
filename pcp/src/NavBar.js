@@ -96,7 +96,7 @@ class NavBar extends Component {
                             link: "/partner"
                         },
                         {
-                            title: "Hire and Intern",
+                            title: "Hire an Intern",
                             link: "/intern"
                         },
                         {
