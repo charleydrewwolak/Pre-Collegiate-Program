@@ -3,7 +3,7 @@
     border-collapse: collapse;
 }
 .t table, th, td {
-    border: 1px solid black;
+    border: 1px solid #4f4f4f;
     border-collapse: collapse;
   }
 .t  {

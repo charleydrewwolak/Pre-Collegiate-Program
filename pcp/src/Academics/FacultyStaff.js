@@ -18,17 +18,24 @@ class FacultyStaff extends Component {
           title: "Dean of Administration",
           bio: "Khaing Ei Mon was born in the Inle Lake region of Shan State. She is devoted to Liberal Arts education and life-long learning and left the Institute of Medicine I (Yangon) to become a student of the Pre-Collegiate Program in 2008. Upon graduation in 2014 from the Asian University for Women in Chittagong, Bangladesh, Khaing Ei Mon joined the Pre-Collegiate Program of Yangon as Dean of Administration."
         },
-
-        {
-          name: "Joseph McClellan",
-          title: "Philosophy",
-          bio:"Joseph McClellan joined our faculty in January 2018. He earned his Ph.D. in 2013 from Columbia University’s Department of Religion and has taught philosophy, religion, and gender studies at several universities in the United States and Asia. He has published Tibetan and French translations, as well as his own monograph. In addition to teaching our World Philosophies course, he leads a weekly extracurricular Sutta Studies group at PCP."
-        },
         
         {
           name: "Danielle Purkey",
           title: "Introduction to Gender Studies",
-          bio: "My experience at PCP has been the embodiment of meaningful work. I am surrounded by intelligent and caring colleagues, and some of the most brilliant, inspiring, and hardest working students I’ve ever met. Every day I come to work ready to give all that I can in the classroom and I leave having received equally as much."
+          bio: "Dani Purkey teaches Gender Studies at PCP and she loves encouraging students to apply what they are learning in class to their surroundings. She holds a BA in Religion and Critical Ethnic Studies with a concentration in Women, Gender, and Sexuality Studies from Kalamazoo College in Michigan. Besides teaching, Dani loves cooking, hiking, and reading. "
+        },
+
+        
+        {
+          name: "Joseph McClellan",
+          title: "Philosophy",
+          bio:"Joseph McClellan joined our faculty in January 2018. He earned his Ph.D. in 2013 from Columbia University’s Department of Religion and has taught philosophy, religion, and gender studies at several universities in the United States and Asia. He has published translations from Tibetan and French, as well as his own monograph. In addition to teaching our World Philosophies course, he leads a weekly extracurricular Sutta Studies group at PCP."
+        },
+
+        {
+          name: "Marie-Laure Laila Le Guen",
+          title: "Science",
+          bio:"Laila is a science educator with a background in Fundamental Physics and a lifelong passion for learning about the world. She’s lived and worked in Thailand, Tanzania and Kenya, before joining the alternative education sector in Myanmar two years ago. At PCP Yangon, she helps students analyze the scientific enterprise as a human adventure and explore the ramifications of science and technology in their environment."
         },
 
         {
@@ -36,11 +43,14 @@ class FacultyStaff extends Component {
           title: "Anthropology",
           bio: "Being at PCP has been an incredible growing experience. I feel lucky to be grounded in the community of PCP, with the wonderful students and supportive and intelligent faculty, especially as someone who’s new to Myanmar. Every day, I learn from those around me."
         },
+
         {
           name: "Zune Nyein Soe",
-          title: "Assisst",
+          title: "Program Assistant",
           bio:"Zune Nyein Soe graduated from the Asian University for Women in 2015, with a major in Environmental Science, and joined the Pre-Collegiate Program in May of 2018 as an assistant to the Dean and Program Director."
         },
+
+        
       ]
     }
   }
