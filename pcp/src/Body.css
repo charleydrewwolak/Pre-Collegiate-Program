@@ -21,13 +21,12 @@ a {
   
 }
 
-p, ul, li {
+p, ul {
   text-align: justify;
   clear: both;
   line-height: 200%;
   font-kerning: normal;
   letter-spacing: 0.5px;
-  font-size: 14px;
 }
 
 

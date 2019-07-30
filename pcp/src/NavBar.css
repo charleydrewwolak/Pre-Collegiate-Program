@@ -167,9 +167,6 @@ width:100%;
 }
 
 @media only screen and (max-width: 700px) {
-  .Map {
-    width: 100% !important;
-  }
   .image {
     width: 11vw;
     padding: 5px;
