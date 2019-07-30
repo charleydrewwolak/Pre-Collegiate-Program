@@ -26,7 +26,11 @@ class NavBar extends Component {
                         {
                             title: "Alumni",
                             link: "/alumni"
-                        }
+                        },
+                        {
+                            title: "Visit Us",
+                            link: "/visit-us"
+                        },
                     ]
                 },
                 {
