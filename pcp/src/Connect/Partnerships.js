@@ -58,6 +58,8 @@ class Partnerships extends Component {
             </div>
           </div>
         ))}
+        <p>Interested in partnering with us? <Link to="/partner">Click here to learn more </Link></p>
+        
       </div>
     )
   }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Image from './Partner.png'
+import { Link } from 'react-router-dom'
 
 class Partner extends Component {
   render() {
@@ -15,6 +16,7 @@ class Partner extends Component {
           <li><strong>Request a Research Assistant:</strong> Have a PCP graduate work with you on your fieldwork or archive research. You may also be interested in our <a href="./intern">internship program</a>.</li>
           <li><strong>Plan a Term Abroad with Us:</strong> Bring some of your undergraduates to study together with our students throughout Myanmar.</li>
         </ul>
+        <Link className="lButton" to="/partnerships">See our current partners </Link>
       </div>
     )
   }
