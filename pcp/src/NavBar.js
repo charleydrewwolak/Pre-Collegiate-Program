@@ -214,7 +214,7 @@ class NavBar extends Component {
         return (
             <header>
                 <div className="image">
-                    <Link to="./"><img className="logo" src={Logo} alt="Pre-Collegiate Program Yangon" /></Link>
+                    <Link to="/"><img className="logo" src={Logo} alt="Pre-Collegiate Program Yangon" /></Link>
                 </div>
                 <div className="mtext" >
                     <h1 className="pcp"><strong>The Pre-Collegiate Program </strong>of Yangon</h1>
