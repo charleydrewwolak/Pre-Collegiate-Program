@@ -9,6 +9,7 @@ import Alumni from './About/Alumni'
 import History from './About/History'
 import Mission from './About/Mission'
 import VisitUs from './About/VisitUs'
+import Board from './About/Board'
 
 import Curriculum from './Academics/Curriculum'
 import FacultyStaff from './Academics/FacultyStaff'
@@ -51,6 +52,7 @@ class App extends Component {
               <Route path='/history' component={History} />
               <Route path='/mission' component={Mission} />
               <Route path='/visit-us' component={VisitUs} />
+              <Route path='/board' component={Board} />
 
               <Route path='/curriculum' component={Curriculum} />
               <Route path='/faculty-and-staff' component={FacultyStaff} />

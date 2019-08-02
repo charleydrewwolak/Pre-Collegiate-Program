@@ -2,6 +2,7 @@
   "name": "pcp",
   "version": "0.1.0",
   "private": false,
+  "license": "UNLICENSED", 
   "homepage": "https://charleydrewwolak.github.io/Pre-Collegiate-Program/",
   "dependencies": {
     "bootstrap": "^4.3.1",

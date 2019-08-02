@@ -31,6 +31,10 @@ class NavBar extends Component {
                             title: "Visit Us",
                             link: "/visit-us"
                         },
+                        {
+                            title: "Board of Trustees",
+                            link: "/board"
+                        },
                     ]
                 },
                 {

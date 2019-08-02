@@ -30,6 +30,9 @@
 .background p {
     margin-top: 10px;
 }
+.staff h2 {
+    margin-top: 0 !important;
+}
 
 
 

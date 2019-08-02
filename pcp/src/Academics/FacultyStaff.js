@@ -18,7 +18,11 @@ class FacultyStaff extends Component {
           title: "Dean of Administration",
           bio: "Khaing Ei Mon was born in the Inle Lake region of Shan State. She is devoted to Liberal Arts education and life-long learning and left the Institute of Medicine I (Yangon) to become a student of the Pre-Collegiate Program in 2008. Upon graduation in 2014 from the Asian University for Women in Chittagong, Bangladesh, Khaing Ei Mon joined the Pre-Collegiate Program of Yangon as Dean of Administration."
         },
-        
+        {
+          name: "Zune Nyein Soe",
+          title: "Program Assistant",
+          bio:"Zune Nyein Soe graduated from the Asian University for Women in 2015, with a major in Environmental Science, and joined the Pre-Collegiate Program in May of 2018 as an assistant to the Dean and Program Director."
+        },
         {
           name: "Danielle Purkey",
           title: "Introduction to Gender Studies",
@@ -41,13 +45,7 @@ class FacultyStaff extends Component {
         {
           name: "Tanmai Vemulapalli",
           title: "Anthropology",
-          bio: "Being at PCP has been an incredible growing experience. I feel lucky to be grounded in the community of PCP, with the wonderful students and supportive and intelligent faculty, especially as someone who’s new to Myanmar. Every day, I learn from those around me."
-        },
-
-        {
-          name: "Zune Nyein Soe",
-          title: "Program Assistant",
-          bio:"Zune Nyein Soe graduated from the Asian University for Women in 2015, with a major in Environmental Science, and joined the Pre-Collegiate Program in May of 2018 as an assistant to the Dean and Program Director."
+          bio: "At PCP, Tanmai Vemulapalli teaches anthropology and guides the students through their community service experiences and reflections. She recently graduated with a B.A. in International Affairs and Anthropology from George Washington University in Washington, DC. While at GW, she grew passionate about migration, transnational issues, storytelling, and cross-cultural communication, which she tries to integrate into her current classes."
         },
 
         
