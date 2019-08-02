@@ -64,12 +64,8 @@ class NavBar extends Component {
                     isOpen: false,
                     links: [
                         {
-                            title: "Student Life",
+                            title: "Overview",
                             link: "/student-life"
-                        },
-                        {
-                            title: "Blog",
-                            link: "/blog"
                         },
                         {
                             title: "Internships",

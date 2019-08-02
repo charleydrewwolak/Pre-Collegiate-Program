@@ -16,22 +16,17 @@ class Curriculum extends Component {
             <p ><strong>Science and Society:</strong> Far from the focus on mastering pre-packaged content often found in high school curricula, this course reintroduces students to the field of science by taking a high plane view on the scientific enterprise. Students are encouraged to become familiar and engage critically with scientific methods and tools, before diving into materials science, big data, and the history of science. These multidisciplinary fields allow for an exploration of our surroundings that touches on elements of physics, chemistry, biology and may open up reflections about the complexities of ‘doing science.’</p>
             <p ><em>Additionally, students spend significant time on each of the&nbsp;following activities.</em></p>
             <ul>
-            <li ><strong>Field Trips</strong> – Students explore Yangon and Myanmar, develop observational and analytical skills, and write field reports on our bi-weekly field trips. Trips include&nbsp;visiting a garment factory, examining ancient and modern Twante kilns, and exploring exploring mangrove forests. Additionally, we take two week-long&nbsp;trips, to study Burmese history, arhitecture, and archaeology at Bagan, and to study economics, political science, and culture in rural Shan State.</li>
-            </ul>
-            <ul>
-            <li ><strong>Touchstones Discussions</strong> – Touchstones uses small group and class discussion to explore issues raised by texts from many societies. Learn more about how students find their voices, develop cooperative learning, and augment their critical thinking at <a href="http://www.touchstones.org">touchstones.org</a>.</li>
-            </ul>
-            <ul>
-            <li ><strong>Newsroom</strong> – This course, which meets once per week, is a discussion-based class that gives students the opportunity to discuss current events in Myanmar and beyond. Students learn about how these situations have come to be, similar cases that have happened before, and what might be done to change them in the future.</li>
-            </ul>
-            <ul>
-            <li ><strong>SAT Preparation</strong> – Students learn knowledge and skills necessary to succeed on the SAT exam and <a href="./financial-aid">earn admission and scholarships</a> to foreign universities.</li>
-            </ul>
-            <ul>
-            <li ><strong>Community Service</strong> – From four to eight hours each week, students learn outside of the classroom, build connections, and create positive change in their communities. Students can volunteer at the Myanmar Education Center for the Blind, teach at local monasteries, and translate Khan Academy videos into Burmese, among other activities.</li>
-            </ul>
-            <ul>
-            <li ><strong>Internships</strong> – Our students gain experience and make connections in Myanmar’s professional world during a four-month <a href="./intern">internship</a>. Projects vary based on the individual’s interest and include working at the Myanmar Times, assisting research at MMRD (Myanmar Marketing Research &amp; Development), surveying workers with the International Labor Organization, and learning documentary filmmaking with Tagu Films.</li>
+              <li ><strong>Field Trips</strong> – Students explore Yangon and Myanmar, develop observational and analytical skills, and write field reports on our bi-weekly field trips. Trips include&nbsp;visiting a garment factory, examining ancient and modern Twante kilns, and exploring exploring mangrove forests. Additionally, we take two week-long&nbsp;trips, to study Burmese history, arhitecture, and archaeology at Bagan, and to study economics, political science, and culture in rural Shan State.</li>
+              <br/>
+              <li ><strong>Touchstones Discussions</strong> – Touchstones uses small group and class discussion to explore issues raised by texts from many societies. Learn more about how students find their voices, develop cooperative learning, and augment their critical thinking at <a href="http://www.touchstones.org">touchstones.org</a>.</li>
+              <br/>
+              <li ><strong>Newsroom</strong> – This course, which meets once per week, is a discussion-based class that gives students the opportunity to discuss current events in Myanmar and beyond. Students learn about how these situations have come to be, similar cases that have happened before, and what might be done to change them in the future.</li>
+              <br/>
+              <li ><strong>SAT Preparation</strong> – Students learn knowledge and skills necessary to succeed on the SAT exam and <a href="./financial-aid">earn admission and scholarships</a> to foreign universities.</li>
+              <br/>
+              <li ><strong>Community Service</strong> – From four to eight hours each week, students learn outside of the classroom, build connections, and create positive change in their communities. Students can volunteer at the Myanmar Education Center for the Blind, teach at local monasteries, and translate Khan Academy videos into Burmese, among other activities.</li>
+              <br/>
+              <li ><strong>Internships</strong> – Our students gain experience and make connections in Myanmar’s professional world during a four-month <a href="./intern">internship</a>. Projects vary based on the individual’s interest and include working at the Myanmar Times, assisting research at MMRD (Myanmar Marketing Research &amp; Development), surveying workers with the International Labor Organization, and learning documentary filmmaking with Tagu Films.</li>
             </ul>
           </div>
       </div>
