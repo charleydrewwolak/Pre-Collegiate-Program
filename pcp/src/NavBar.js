@@ -75,6 +75,10 @@ class NavBar extends Component {
                             title: "Service Sites",
                             link: "/service-sites"
                         },
+                        {
+                            title: "Academic Calendar",
+                            link: "/calendar"
+                        }
                     ]
                 },
                 {
@@ -114,12 +118,16 @@ class NavBar extends Component {
                     ]
                 },
                 {
-                    type: 'Resources',
+                    type: 'Give',
                     isOpen: false,
                     links: [
                         {
-                            title: "Academic Calendar",
-                            link: "/calendar"
+                            title: "Donate",
+                            link: "/donate"
+                        },
+                        {
+                            title: "Sponsors",
+                            link: "/sponsors"
                         }
                     ]
                 }

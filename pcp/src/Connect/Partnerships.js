@@ -36,6 +36,12 @@ class Partnerships extends Component {
           link: "iua",
           bio: 'The IUA is committed to creating more opportunities for students and inspiring cross-cultural exchange, ultimately leading to better, healthier, and more peaceful, respectful and sustainable communities.',
           logo: 'IUA.png',
+        },
+        {
+          name: "International University Alliance",
+          link: "lab",
+          bio: 'Learning Across Borders (LAB) is an educational nonprofit with a program focused on students and educators from various countries in the Asia-Pacific region. At LAB, we are focused on promoting four thematic principles: environmental science, project-based learning, student leadership, and cross-cultural navigation. Through this program, we aim to transform educational systems to be student centered, holistic, and hands-on, driven by a network of like-minded educators.',
+          logo: 'LAB.jpg',
         }
       ]
     }

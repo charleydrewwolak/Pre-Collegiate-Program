@@ -15,6 +15,7 @@ import Curriculum from './Academics/Curriculum'
 import FacultyStaff from './Academics/FacultyStaff'
 import LiberalArts from './Academics/LiberalArts'
 import StudyAbroad from './Academics/StudyAbroad'
+import Calendar from './StudentLife/Calendar';
 
 import Apply from './Admissions/Apply'
 import FinancialAid from './Admissions/FinancialAid'
@@ -28,10 +29,12 @@ import Team from './Connect/Team';
 import Zomia from './Connect/Zomia';
 import KoeKoeTech from './Connect/KoeKoeTech';
 import IUA from './Connect/IUA';
+import LAB from './Connect/LAB';
 
-import Calendar from './StudentResources/Calendar';
 
-import Donate from './Donate';
+
+import Donate from './Give/Donate';
+import Sponsors from './Give/Sponsors'
 
 import Internships from './StudentLife/Internships';
 import StudentLife from './StudentLife/StudentLife';
@@ -58,6 +61,7 @@ class App extends Component {
               <Route path='/faculty-and-staff' component={FacultyStaff} />
               <Route path='/liberal-arts' component={LiberalArts} />
               <Route path='/study-abroad' component={StudyAbroad} />
+              
 
               <Route path='/apply' component={Apply} />
               <Route path='/financial-aid' component={FinancialAid} />
@@ -71,14 +75,19 @@ class App extends Component {
               <Route path='/iua' component={IUA} />
               <Route path='/koe-koe-tech' component={KoeKoeTech} />
               <Route path='/bonner' component={Bonner} />
-              <Route path='/impetus' component={Impetus} />
-              <Route path='/donate' component={Donate} />
+              <Route path='/impetus' component={LAB} />
+              <Route path='/lab' component={Impetus} />
 
-              <Route path='/calendar' component={Calendar} />
+              
 
               <Route path='/student-life' component={StudentLife} />
               <Route path='/internships' component={Internships} />
               <Route path='/service-sites' component={ServiceSites} />
+              <Route path='/calendar' component={Calendar} />
+
+              <Route path='/donate' component={Donate} />
+              <Route path='/sponsors' component={Sponsors} />
+
 
             </div>
           </Router>
