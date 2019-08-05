@@ -19,31 +19,35 @@ class Partnerships extends Component {
           bio: "The Impetus Fund is a scholarship awarded to current PCP students, funding their internships or educational pursuits. Awards range from 100-1000 USD depending on the student’s need and standing with PCP, the project’s value, and fund availability. Started by three alumni of the PCP program, the scholarship seeks to open up opportunities for PCP students otherwise obstructed by financial considerations.",
           logo: 'impetus.png',
         },
+      ],
+      spartners: [
         {
           name: "Zomia SPC",
-          link: "zomia",
+          link: "https://zomia.org/",
           bio: 'Zomia SPC is a social purpose corporation launched in 2014 to increase access to higher education among students from marginalized communities. We do so by providing students from marginalized communities affordable education loans that are funded by philanthropic individuals and institutions from around the world.',
           logo: 'zomia.png',
         },
         {
           name: "Koe Koe Tech",
-          link: "koe-koe-tech",
+          link: "https://www.koekoetech.com/",
           bio: 'Koe Koe Tech crafts software to reduce maternal and child mortality rates in Myanmar, to improve health indicators, and to increase access to information, resulting in positive social impacts for the people of Myanmar.',
           logo: 'KKT.png',
         },
         {
           name: "International University Alliance",
-          link: "iua",
+          link: "https://www.iua.org/",
           bio: 'The IUA is committed to creating more opportunities for students and inspiring cross-cultural exchange, ultimately leading to better, healthier, and more peaceful, respectful and sustainable communities.',
           logo: 'IUA.png',
         },
         {
-          name: "International University Alliance",
-          link: "lab",
+          name: "Learning Accross Borders",
+          link: "https://thelabprogram.org/",
           bio: 'Learning Across Borders (LAB) is an educational nonprofit with a program focused on students and educators from various countries in the Asia-Pacific region. At LAB, we are focused on promoting four thematic principles: environmental science, project-based learning, student leadership, and cross-cultural navigation. Through this program, we aim to transform educational systems to be student centered, holistic, and hands-on, driven by a network of like-minded educators.',
           logo: 'LAB.jpg',
         }
+        
       ]
+
     }
   }
 
@@ -60,6 +64,19 @@ class Partnerships extends Component {
             </div>
             <div className="pLogo">
               <Link to={`/${m.link}`}><img id={m.link} src={require(`./${m.logo}`)} alt="Logo"/></Link>
+              
+            </div>
+          </div>
+        ))}
+        {this.state.spartners.map(m => (
+          <div className="partner">
+            <div className="pBody">
+              <h3>{m.name}</h3>
+              <p className="b">{m.bio}</p>
+              <a className="lButton" href={m.link} target="_blank">Learn More</a>
+            </div>
+            <div className="pLogo">
+              <img href={m.link} id={m.link} src={require(`./${m.logo}`)} alt="Logo"/>
               
             </div>
           </div>

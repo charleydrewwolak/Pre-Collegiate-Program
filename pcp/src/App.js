@@ -26,10 +26,6 @@ import Intern from './Connect/Intern';
 import Partner from './Connect/Partner';
 import Partnerships from './Connect/Partnerships';
 import Team from './Connect/Team';
-import Zomia from './Connect/Zomia';
-import KoeKoeTech from './Connect/KoeKoeTech';
-import IUA from './Connect/IUA';
-import LAB from './Connect/LAB';
 
 
 
@@ -71,12 +67,8 @@ class App extends Component {
               <Route path='/partner' component={Partner} />
               <Route path='/join' component={Team} />
               <Route path='/partnerships' component={Partnerships} />
-              <Route path='/zomia' component={Zomia} />
-              <Route path='/iua' component={IUA} />
-              <Route path='/koe-koe-tech' component={KoeKoeTech} />
               <Route path='/bonner' component={Bonner} />
-              <Route path='/impetus' component={LAB} />
-              <Route path='/lab' component={Impetus} />
+              <Route path='/impetus' component={Impetus} />
 
               
 
