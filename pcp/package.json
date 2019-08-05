@@ -1,21 +1,9 @@
 {
   "name": "pcp",
   "version": "0.1.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   "private": false,
   "license": "UNLICENSED", 
-  "homepage": "https://charleydrewwolak.github.io/Pre-Collegiate-Program/",
-=======
-  "private": true,
->>>>>>> parent of 8ea4ce43... prepair gh pages
-=======
-  "private": true,
->>>>>>> parent of 8ea4ce43... prepair gh pages
-=======
-  "private": true,
->>>>>>> parent of 8ea4ce43... prepair gh pages
+  "homepage": "https://charleydrewwolak.github.io/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
@@ -26,17 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
-=======
->>>>>>> parent of 8ea4ce43... prepair gh pages
-=======
->>>>>>> parent of 8ea4ce43... prepair gh pages
-=======
->>>>>>> parent of 8ea4ce43... prepair gh pages
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
