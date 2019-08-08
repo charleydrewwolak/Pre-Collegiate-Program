@@ -5,7 +5,7 @@ class Bonner extends Component {
   render() {
     return (
       <div>
-        <img src={require("./bonner.png")} width="20%"/>
+        <img src={require("./bonner.png")} alt="Bonner logo" width="20%"/>
         <h1>The Bonner Foundation</h1>
         <p>The Bonner Network encompasses more than 65 liberal arts colleges and lives up to its motto of
 Access to Education, Opportunity to Serve. Extensive information is available at <a href="http://www.bonner.org">bonner.org</a></p>

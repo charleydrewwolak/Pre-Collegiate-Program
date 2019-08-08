@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import image1 from './SAT.png'
-import image2 from './CollegeList.png'
+import image2 from './CollegeList.jpg'
+
 
 class StudyAbroad extends Component {
   render() {
@@ -13,7 +14,8 @@ class StudyAbroad extends Component {
         <img src={image1} height="150px" width="auto" alt="SAT Scores" />
         <h4>Where Our Students Earn Their Bachelor’s Degrees</h4>
         <p>Most of our alumni graduate from American Universities. Several have found success in Hong Kong, Canada, the Phillipines, and at other world class schools in Europe and Asia. Our students usually choose <a href="./liberal-arts">liberal arts</a> colleges due to the small class sizes, personalized attention, and academic freedom that these schools offer. Here’s a list of some of the universities that PCP alumni have studied at, along with their majors.</p>
-        <img src={image2} alt="College List" />
+        <img src={image2} width="100%" alt="College List" />
+
       </div>
     )
   }

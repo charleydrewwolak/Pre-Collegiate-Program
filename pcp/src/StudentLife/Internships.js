@@ -13,9 +13,19 @@ class Internships extends Component {
           link: "https://www.360ed.org/"
         },
         {
+          name: "Doh Eain",
+          description: "Doh Eain began informally when towards the end of 2015 we helped our now team member Gulam and his family renovate their second apartment in a historical building on Bogalay Zay street. Due to the illness of their mother, this family had run into financial trouble. Receiving financial and design support from us, their apartment was upgraded to modern standards and rented out to a new tenant. Renovation was paid back within a year, while the family started enjoying a solid monthly income. Soon after, family members and friends owning heritage spaces started approaching us with similar requests for restoration help.",
+          link: "http://www.doheain.com/"
+        },
+        {
           name: "Frontier Myanmar",
           description: "Frontier is a research and advisory firm incorporated in the United Kingdom. Since 2009 the company has undertaken work in some of the world's most exciting and challenging frontier markets.",
           link: "https://www.frontiermyanmar.com/"
+        },
+        {
+          name: "Gitameit",
+          description: "Gitameit was founded in order to build a supportive community of musicians and audiences locally, and to encourage sustained, meaningful contact with international institutions, teachers and performers.",
+          link: "https://web.facebook.com/gitameit/"
         },
         {
           name: "Proximity Designs",

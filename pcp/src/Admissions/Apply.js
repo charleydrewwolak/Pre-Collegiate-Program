@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import image from './Apply.png'
+import image from './Apply.jpg'
 
 class Apply extends Component {
   render() {
@@ -14,7 +14,7 @@ class Apply extends Component {
 The exam lasts half a day and tests your English and Myanmar language skills, critical reading and writing skills, and math aptitude. You don’t need to do anything to prepare, except bring a pen and a good attitude. </p>
 
         <p>Start your application <a href="https://forms.gle/36CoVymLayjmnNvX8" target="_blank" rel="noopener noreferrer">here</a>.</p>
-        <img src={image} alt="PCP Students" />
+        <img src={image} width="100%" alt="PCP Students in a discussion" />
       </div>
     )
   }
