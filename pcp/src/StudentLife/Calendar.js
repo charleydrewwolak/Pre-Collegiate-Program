@@ -6,9 +6,14 @@ class Calendar extends Component {
     super();
     this.state = {
       events: {
-        "2/12/1998": "Charleys Birthday",
-        "1/1/2011-2/3/2011": "Wow!",
-        "2/22/2022": "Yeet "
+        "7/8/2019-9/20/2019": "Term 3",
+        "9/23/2019-9/27/2019": "Term Break",
+        "9/30/2019-12/6/2019": "Term 4",
+        "10/11/2019-10/14/2019": "Thadingyut",
+        "11/11/2019": "Full Moon Day",
+        "11/21/2019": "National Day",
+        
+
       },
     }  
     this.orderEvents()
