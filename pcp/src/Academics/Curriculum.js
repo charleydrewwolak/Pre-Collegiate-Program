@@ -20,8 +20,6 @@ class Curriculum extends Component {
               <br/>
               <li ><strong>Touchstones Discussions</strong> – Touchstones uses small group and class discussion to explore issues raised by texts from many societies. Learn more about how students find their voices, develop cooperative learning, and augment their critical thinking at <a href="http://www.touchstones.org">touchstones.org</a>.</li>
               <br/>
-              <li ><strong>Newsroom</strong> – This course, which meets once per week, is a discussion-based class that gives students the opportunity to discuss current events in Myanmar and beyond. Students learn about how these situations have come to be, similar cases that have happened before, and what might be done to change them in the future.</li>
-              <br/>
               <li ><strong>SAT Preparation</strong> – Students learn knowledge and skills necessary to succeed on the SAT exam and <a href="./financial-aid">earn admission and scholarships</a> to foreign universities.</li>
               <br/>
               <li ><strong>Community Service</strong> – From four to eight hours each week, students learn outside of the classroom, build connections, and create positive change in their communities. Students can volunteer at the Myanmar Education Center for the Blind, teach at local monasteries, and translate Khan Academy videos into Burmese, among other activities.</li>
