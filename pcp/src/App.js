@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './NavBar'
 import HomePage from './HomePage'
@@ -45,7 +45,7 @@ class App extends Component {
         <div className="App">
           <Router basename={process.env.PUBLIC_URL}>
             <NavBar className="nav"/>
-              <Route exact path="/" component={HomePage} />
+              <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
             <div className="Body">
               <Route path='/alumni' component={Alumni} />
               <Route path='/history' component={History} />
