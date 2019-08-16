@@ -45,7 +45,7 @@ class App extends Component {
         <div className="App">
           <Router basename='/'>
             <NavBar className="nav"/>
-              <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
+              <Route exact path="/" component={HomePage} />
             <div className="Body">
               <Route path='/alumni' component={Alumni} />
               <Route path='/history' component={History} />
