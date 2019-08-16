@@ -171,18 +171,28 @@ width:100%;
     width: 100% !important;
   }
   .image {
-    width: 11vw;
     padding: 5px;
+    display: table-cell !important;
+    height: 50px;
+    width: 10vw;
+  }
+  .image img {
+    width: 10vw;
+    max-width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
   .pcp strong {
     display: block;
   }
   .pcp {
-    margin-top: 1vw;
-    padding-left: 1vw;
-    line-height: 5vw;
-    font-size: 4vw;
-    margin-bottom: 1vw;
+    margin-top: 5px;
+    padding-left: 4px;
+    line-height: 24px;
+    font-size: 19px;
+    margin-bottom: 5px;
   }
   .mtext {
     padding: none;
@@ -196,13 +206,13 @@ width:100%;
     display: block;
   }
   #menu1, #menu2 {
-    width: 3.9vw;
+    width: 15px;
   }
   .Menu {
     float:right;
     display: block;
     padding-right: 3vw;
-    padding-top: 4vw;
+    padding-top: 20px;
   }
   .right{
     width: 100%;
@@ -219,11 +229,10 @@ width:100%;
     width:100%
   }
   .dropbtn {
-    font-size: 10px;
+    font-size: 14px;
     display: block;
     float: left;
     width: 100%;
-    font-size: 2.6vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
   }
@@ -237,7 +246,7 @@ width:100%;
           animation: scale-up-ver-topp 0.2s linear both;
   }
   .dropdown-content a {
-    font-size: 2.5vw;
+    font-size: 14px;
     text-align: center;
     border: 1px solid white;
     background-color: rgb(240, 240, 240);

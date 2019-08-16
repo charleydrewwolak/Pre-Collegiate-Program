@@ -8,9 +8,9 @@ class Sponsors extends Component {
         <h1>Our Sponsors</h1>
         
         <br/>
-        <h3>KBZ BFM</h3>
+        <h3>KBZ Brighter Future Myanmar</h3>
         <p>Thank you for your Support!</p>
-        <img src={require("./KBZ.jpeg")} width="40%" alt="Sponsor Ad" />
+        <a href="https://www.brighterfuturemyanmar.org/"><img src={require("./KBZ.png")} width="40%" alt="Sponsor Ad" /></a>
       </div>
     )
   }

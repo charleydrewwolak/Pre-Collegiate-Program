@@ -19,6 +19,10 @@ class Donate extends Component {
         <br/>
         <h3>Are there other ways to get involved?</h3>
         <p>Yes! Many people <Link to="/partner">contribute</Link> to the PCP community by spending time with students while in Myanmar, assisting a student in matriculating at a particular college, or hosting one for a family holiday.</p>
+        <br/>
+        <a href="https://www.paypal.com/donate/?token=bxzfrtZsKjFWYtv4DT8xBhdR88Jo1Jb8OjX3dFeMIVMhn10a2BzSSbf7BR83YVF1lE7Pcm&country.x=US&locale.x=" className="lButton">Donate Now</a> 
+        <br/>
+        <br/>
       </div>
     )
   }

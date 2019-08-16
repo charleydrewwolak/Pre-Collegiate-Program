@@ -138,6 +138,7 @@ class NavBar extends Component {
             openGroup: null,
         };
     }
+    
 
     componentDidMount(){
         document.addEventListener('mousedown', this.handleClickOutside);
@@ -201,18 +202,17 @@ class NavBar extends Component {
         })
     }
 
-    showNavBar() {
-        
+    showNavBar = () => {
         document.getElementById('nb').classList.add("show")
         document.getElementById('menu1').classList.add("hide")
         document.getElementById('menu2').classList.add("show")
-
     }
 
     hideNavBar = () => {
         document.getElementById('nb').classList.remove("show")
         document.getElementById('menu1').classList.remove("hide")
         document.getElementById('menu2').classList.remove("show")
+
         
     }
 
