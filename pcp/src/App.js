@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './NavBar'
-import Home from './HomePage'
+import HomePage from './HomePage'
 import Footer from './Footer'
 
 import Alumni from './About/Alumni'
@@ -43,9 +43,9 @@ class App extends Component {
     return (
       <div>
         <div className="App">
-          <Router >
+          <Router>
             <NavBar className="nav"/>
-              <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+              <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
             <div className="Body">
               <Route path='/alumni' component={Alumni} />
               <Route path='/history' component={History} />
