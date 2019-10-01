@@ -2,7 +2,7 @@
   "name": "pcp",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://charleydrewwolak.github.io/Pre-Collegiate-Program/",
+  "homepage": "https://precollegiateyangon.org/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.8.6",

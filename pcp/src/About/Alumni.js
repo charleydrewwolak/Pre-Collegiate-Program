@@ -36,7 +36,7 @@ class Alumni extends Component {
         <h2 className="staff">Our Alumni</h2>
         { this.state.profiles.map(m => (
           <div className="profile">
-            <img alt="Portrait" className="portrait" src={require(`./AlumniPortraits/${m.name.replace(' ','')}.jpg`)}/>
+            <div className="portrait"><img alt="Portrait"  src={require(`./AlumniPortraits/${m.name.replace(' ','')}.jpg`)}/></div>
             <div className="bio">
               <div className="title">
               <strong className="Name">{m.name}</strong>

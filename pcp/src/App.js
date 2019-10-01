@@ -37,7 +37,6 @@ import StudentLife from './StudentLife/StudentLife';
 import ServiceSites from './StudentLife/ServiceSites';
 
 
-
 class App extends Component {
   render() {
     return (
