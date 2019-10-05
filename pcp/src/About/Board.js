@@ -36,6 +36,11 @@ class Board extends Component {
             title: "Regional Outreach Manager, Myanmar Center for Responsible Business",
             degree: "B.A., Journalism in International Politics"
         },
+        {
+          name: "MayThway Ko",
+          title: "Grant Management Analyst",
+          degree: "UNOPS M.A., Global Political Studies"
+        }
       ]
     }
   }
