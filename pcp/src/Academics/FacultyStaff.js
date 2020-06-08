@@ -6,12 +6,6 @@ class FacultyStaff extends Component {
     super();
     this.state = {
       profiles: [
-        
-        {
-          name: "Kristen Hartman",
-          title: "Director",
-          bio:"Kristen holds an MA and BA in English Literature and has been teaching composition and literature at the university level since 2001. In addition to teaching, she has worked at the Centre for the Study and Teaching of Writing, the Digital Media Project, and as assistant editor for the academic journal “American Periodicals.” Prior to joining the Pre-Collegiate Program of Yangon, Kristen directed the Access Academy at the Asian University for Women."
-        },
 
         {
           name: "Khaing Ei Mon",
@@ -24,31 +18,28 @@ class FacultyStaff extends Component {
           bio:"Zune Nyein Soe graduated from the Asian University for Women in 2015, with a major in Environmental Science, and joined the Pre-Collegiate Program in May of 2018 as an assistant to the Dean and Program Director."
         },
         {
-          name: "Danielle Purkey",
-          title: "Introduction to Gender Studies",
-          bio: "Dani Purkey teaches Gender Studies at PCP and she loves encouraging students to apply what they are learning in class to their surroundings. She holds a BA in Religion and Critical Ethnic Studies with a concentration in Women, Gender, and Sexuality Studies from Kalamazoo College in Michigan. Besides teaching, Dani loves cooking, hiking, and reading. "
+          name: "Kendall Quisenberry",
+          title: "Environmental Studies, Academic & Creative Writing",
+          bio:"Kendall grew up in Kentucky and graduated from DePauw University in 2013 with a Bachelor's in English Writing and Education. She has a teaching license from Teach-Now Graduate School of Education with a specialization in secondary English Language Arts. Prior to coming to the Pre-Collegiate Program, she worked in education in Thailand, California, and Malaysia."
+        },
+        {
+          name: "Raju Gautam",
+          title: "World History, Touchstones Discussion",
+          bio: "Raju, himself an alumnus of the Program, teaches Modern History and facilitates Touchstones Discussions. He co-ordinates the weekly Internship Seminar to help students reflect on their internship experiences. He also works with students to reflect on their Community Service experiences. Raju graduated with a B.A. in General History from William Penn University. He is fascinated by the debates on how to mitigate various inequalities, which he integrates into his curriculum."
         },
 
         
         {
-          name: "Joseph McClellan",
-          title: "Philosophy",
-          bio:"Joseph McClellan joined our faculty in January 2018. He earned his Ph.D. in 2013 from Columbia University’s Department of Religion and has taught philosophy, religion, and gender studies at several universities in the United States and Asia. He has published translations from Tibetan and French, as well as his own monograph. In addition to teaching our World Philosophies course, he leads a weekly extracurricular Sutta Studies group at PCP."
+          name: "Zarni Htun",
+          title: "Literature",
+          bio:"Zarni studied at Bard College in Annandale-on-Hudson York, and then graduated with a M.A. in English Literature and a M.S. in Global Studies and International Affairs. In addition to her major studies, she also enjoyed art history, psychology, philosophy/ethics, mathematics and theology classes. She is currently teaching fairy tales, short stories, expatriate and postcolonial novels, and philosophical texts at PCP. She also writes poetry and short stories and is an avid horsewoman and athlete. She has worked as a teacher, in the communications field, in solar energy, in business, in CSR and in research and consulting. She is also devoting time to community service by raising funds for and distributing food packages (staple food items) to impoverished homes in Yangon due to the backlash of Covid19."
         },
 
         {
-          name: "Marie-Laure Laila Le Guen",
-          title: "Science",
-          bio:"Laila is a science educator with a background in Fundamental Physics and a lifelong passion for learning about the world. She’s lived and worked in Thailand, Tanzania and Kenya, before joining the alternative education sector in Myanmar two years ago. At PCP Yangon, she helps students analyze the scientific enterprise as a human adventure and explore the ramifications of science and technology in their environment."
-        },
-
-        {
-          name: "Tanmai Vemulapalli",
-          title: "Anthropology",
-          bio: "At PCP, Tanmai Vemulapalli teaches anthropology and guides the students through their community service experiences and reflections. She recently graduated with a B.A. in International Affairs and Anthropology from George Washington University in Washington, DC. While at GW, she grew passionate about migration, transnational issues, storytelling, and cross-cultural communication, which she tries to integrate into her current classes."
-        },
-
-        
+          name: "Kyaw San Min",
+          title: "SAT Preparation",
+          bio:"Kyaw San Min is from Yangon. He graduated from the Pre-Collegiate Program in 2012 and went on to study Environmental Science at Trinity College in Connecticut. Since receiving his degree, he worked in Agricultural Development. He returned to P-CP in 2020 to volunteer with the program as a part-time tutor to help students practice for their SAT exams."
+        },        
       ]
     }
   }
