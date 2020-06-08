@@ -27,8 +27,6 @@ class FacultyStaff extends Component {
           title: "World History, Touchstones Discussion",
           bio: "Raju, himself an alumnus of the Program, teaches Modern History and facilitates Touchstones Discussions. He co-ordinates the weekly Internship Seminar to help students reflect on their internship experiences. He also works with students to reflect on their Community Service experiences. Raju graduated with a B.A. in General History from William Penn University. He is fascinated by the debates on how to mitigate various inequalities, which he integrates into his curriculum."
         },
-
-        
         {
           name: "Zarni Htun",
           title: "Literature",
@@ -50,7 +48,7 @@ class FacultyStaff extends Component {
         { this.state.profiles.map(m => (
           <div className="profile">
             <div className="bio">
-              <img alt="Portrait" className="portrait" src={require(`./staff/${m.name.replace(' ','')}.jpg`)}/>
+              <img alt="Portrait" className="portrait" src={require(`./staff/${m.name.replace(' ','')}.jpeg`)}/>
             </div>
             <div className="background">
               <h2>{m.name}</h2>
