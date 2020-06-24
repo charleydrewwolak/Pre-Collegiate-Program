@@ -3,9 +3,13 @@
 
 
 header {
-  padding-top: 5px;
+  padding-top: 5px !;
   display: table;
   width: 100%;
+}
+
+.sr-only {
+  display: none;
 }
 
 .right {
@@ -118,7 +122,7 @@ width:100%;
 /* Dropdown content (hidden by default) */
 
 .dropdown-content {
-  display: block;
+  display: block ;
   position: absolute;
   background-color: white;
   width: 12%;

@@ -1,13 +1,62 @@
 import React, { Component } from 'react'
 import './Homepage.css'
-import ControlledCarousel from './Carousel'
+import Carousel from 'react-bootstrap/Carousel'
 import { Link } from 'react-router-dom'
-
+import c1 from './1.jpg'
+import c2 from './2.jpg'
+import c3 from './3.jpg'
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import './Carousel.css'
 class HomePage extends Component {
   render() {
     return (
       <div>
-        <ControlledCarousel/>
+         <div className="carousel">
+    
+        
+    <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={c1}
+          alt="First slide"
+          width="100%"
+        />
+        <Carousel.Caption>
+          <h2 className="ch">Liberal Arts Education in Yangon</h2>
+          <Link to="./liberal-arts" className="aa">What is liberal arts?</Link>
+          
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={c2}
+          alt="Third slide"
+          width="100%"
+        />
+        <Carousel.Caption>
+          <h2 className="ch">Meet our Alumni</h2>
+          <Link to="./alumni" className="aa">What are they doing now?</Link>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={c3}
+          alt="Third slide"
+          width="100%"
+        />
+        <Carousel.Caption className="carousel-caption">
+          <h2 className="ch">Academic Calendar</h2>
+          <Link to="./calendar" className="aa"> Check when you can apply!</Link>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+    </div>
         <div className="hp">
           <p className="main">
           Founded in 2003, the Pre-Collegiate Program (PCP) has had a singular mission: to create a society of educated innovators, leaders, and change-makers who solve important challenges in Myanmar and beyond. 
